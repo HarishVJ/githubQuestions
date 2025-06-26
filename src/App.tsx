@@ -193,11 +193,11 @@ function App() {
                     }
                     label={option}
                     sx={{
-                      backgroundColor: showResult
+                      backgroundColor: showQuestionResult
                         ? (Array.isArray(currentQuestion.correctAnswer) && currentQuestion.correctAnswer.includes(index))
-                          ? '#4caf50'
+                          ? '#e8f5e9'
                           : selectedAnswers.includes(index)
-                            ? '#f44336'
+                            ? '#ffebee'
                             : 'transparent'
                         : 'transparent',
                       borderRadius: 1,
@@ -219,11 +219,11 @@ function App() {
                     control={<Radio />}
                     label={option}
                     sx={{
-                      backgroundColor: showResult
-                        ? index === currentQuestion.correctAnswer
-                          ? '#4caf50'
+                      backgroundColor: showQuestionResult
+                        ? (Array.isArray(currentQuestion.correctAnswer) && currentQuestion.correctAnswer[0] === index)
+                          ? '#e8f5e9'
                           : selectedAnswers[0] === index
-                            ? '#f44336'
+                            ? '#ffebee'
                             : 'transparent'
                         : 'transparent',
                       borderRadius: 1,
@@ -237,17 +237,39 @@ function App() {
                 ))}
               </RadioGroup>
             )}
-            <Button
-              variant="contained"
-              onClick={() => setShowQuestionResult(true)}
-              disabled={selectedAnswers.length === 0}
-              sx={{ mt: 2, mb: 2, mr: 2 }}
-            >
-              Check Answer
-            </Button>
+            <Box sx={{ display: 'flex', justifyContent: 'flex-start', gap: 2, mt: 3 }}>
+              <Button
+                variant="contained"
+                onClick={() => setShowQuestionResult(true)}
+                disabled={selectedAnswers.length === 0}
+                color="primary"
+                sx={{
+                  bgcolor: '#1976d2',
+                  '&:hover': {
+                    bgcolor: '#1565c0'
+                  }
+                }}
+              >
+                Check Answer
+              </Button>
+              <Button
+                variant="contained"
+                onClick={handleNextQuestion}
+                disabled={!showQuestionResult}
+                color="secondary"
+                sx={{
+                  bgcolor: '#9c27b0',
+                  '&:hover': {
+                    bgcolor: '#7b1fa2'
+                  }
+                }}
+              >
+                {state.currentQuestionIndex === state.totalQuestions - 1 ? 'Finish' : 'Next'}
+              </Button>
+            </Box>
             {showQuestionResult && (
-              <Box sx={{ mt: 2, mb: 2, p: 2, bgcolor: isAnswerCorrect ? '#e8f5e9' : '#ffebee', borderRadius: 1 }}>
-                <Typography variant="body1" color={isAnswerCorrect ? 'success.main' : 'error.main'}>
+              <Box sx={{ mt: 3, p: 2, bgcolor: isAnswerCorrect ? '#e8f5e9' : '#ffebee', borderRadius: 1, border: 1, borderColor: isAnswerCorrect ? '#4caf50' : '#f44336' }}>
+                <Typography variant="body1" color={isAnswerCorrect ? 'success.main' : 'error.main'} sx={{ fontWeight: 'bold' }}>
                   {isAnswerCorrect ? '✓ Correct!' : '✗ Incorrect!'}
                 </Typography>
                 <Typography variant="body2" sx={{ mt: 1 }}>
@@ -257,14 +279,6 @@ function App() {
                 </Typography>
               </Box>
             )}
-            <Button
-              variant="contained"
-              onClick={handleNextQuestion}
-              disabled={!showQuestionResult}
-              sx={{ mt: 2 }}
-            >
-              {state.currentQuestionIndex === state.totalQuestions - 1 ? 'Finish' : 'Next'}
-            </Button>
           </>
         )}
       </Box>
