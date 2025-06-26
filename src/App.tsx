@@ -101,7 +101,10 @@ function App() {
         answers: newAnswers,
       });
       setSelectedAnswers([]);
+      setShowQuestionResult(false);
       setShowResult(false); // Reset showResult for the next question
+      
+
     }
   };
 
@@ -116,7 +119,24 @@ function App() {
       questions: shuffledQuestions,
     });
     setSelectedAnswers([]);
+    setShowQuestionResult(false);
     setShowResult(false);
+    
+    // Reset form elements
+    const radioInputs = document.querySelectorAll('input[type="radio"]');
+    const checkboxInputs = document.querySelectorAll('input[type="checkbox"]');
+    
+    radioInputs.forEach((input: Element) => {
+      if (input instanceof HTMLInputElement) {
+        input.checked = false;
+      }
+    });
+    
+    checkboxInputs.forEach((input: Element) => {
+      if (input instanceof HTMLInputElement) {
+        input.checked = false;
+      }
+    });
   };
 
   const currentQuestion = state.questions[state.currentQuestionIndex];
@@ -201,7 +221,7 @@ function App() {
                       <Checkbox 
                         checked={selectedAnswers.includes(index)}
                         onChange={handleAnswerSelect}
-                        value={index}
+                        value={index.toString()}
                       />
                     }
                     label={option}
@@ -224,7 +244,7 @@ function App() {
                 ))}
               </FormGroup>
             ) : (
-              <RadioGroup value={selectedAnswers[0]} onChange={handleAnswerSelect}>
+              <RadioGroup value={selectedAnswers[0]?.toString() || ''} onChange={handleAnswerSelect}>
                 {currentQuestion.options.map((option, index) => (
                   <FormControlLabel
                     key={index}
