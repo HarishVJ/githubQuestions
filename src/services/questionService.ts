@@ -1,16 +1,12 @@
 import type { Question } from '../types/types';
+import questionsData from '../data/questions.json';
 
 export async function loadQuestionsFromFiles(): Promise<Question[]> {
   try {
-    const response = await fetch('/.netlify/functions/questions');
-    if (!response.ok) {
-      throw new Error(`Failed to load questions: ${response.statusText}`);
+    if (!Array.isArray(questionsData) || questionsData.length === 0) {
+      throw new Error('No valid questions found in questions.json');
     }
-    const questions = await response.json();
-    if (!Array.isArray(questions) || questions.length === 0) {
-      throw new Error('No valid questions received');
-    }
-    return questions;
+    return questionsData;
   } catch (error) {
     console.error('Error loading questions:', error);
     throw error;

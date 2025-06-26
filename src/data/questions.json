@@ -1,0 +1,1225 @@
+[
+  {
+    "id": 1,
+    "text": "What is Responsible AI?",
+    "options": [
+      "AI that adheres to ethical guidelines and principles",
+      "AI that is developed by large companies",
+      "AI that is open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 2,
+    "text": "Which of the following is a key principle of Responsible AI?",
+    "options": [
+      "Transparency",
+      "Speed of development",
+      "Proprietary algorithms"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 3,
+    "text": "Why is fairness important in AI?",
+    "options": [
+      "To prevent bias and discrimination",
+      "To increase the speed of AI development",
+      "To reduce the cost of AI systems"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 4,
+    "text": "What does AI transparency involve?",
+    "options": [
+      "Explaining how AI decisions are made",
+      "Ensuring AI systems are fast",
+      "Keeping AI algorithms secret"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 5,
+    "text": "Which organization provides guidelines for Responsible AI?",
+    "options": [
+      "OpenAI",
+      "IEEE",
+      "NASA"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 6,
+    "text": "What is the goal of AI accountability?",
+    "options": [
+      "To ensure there is a clear responsibility for AI outcomes",
+      "To reduce the cost of AI systems",
+      "To make AI systems open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 7,
+    "text": "Which of the following is a risk of not following Responsible AI principles?",
+    "options": [
+      "Bias and discrimination",
+      "Faster development",
+      "Proprietary algorithms"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 8,
+    "text": "What is AI ethics concerned with?",
+    "options": [
+      "The moral implications of AI",
+      "The profitability of AI systems",
+      "The proprietary nature of AI algorithms"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 9,
+    "text": "Why is inclusivity important in AI development?",
+    "options": [
+      "To prevent bias and ensure diverse perspectives",
+      "To increase the speed of AI development",
+      "To keep AI algorithms secret"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 10,
+    "text": "What is the role of human oversight in Responsible AI?",
+    "options": [
+      "To ensure AI systems are used ethically and responsibly",
+      "To reduce the cost of AI systems",
+      "To make AI systems open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Plans and Features"
+  },
+  {
+    "id": 11,
+    "text": "What is GitHub Copilot?",
+    "options": [
+      "An AI-powered code completion tool",
+      "A version control system",
+      "A bug tracking system"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 13,
+    "text": "What programming languages does GitHub Copilot support?",
+    "options": [
+      "Only JavaScript",
+      "Multiple programming languages",
+      "Only Java"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 14,
+    "text": "How does GitHub Copilot provide code suggestions?",
+    "options": [
+      "By using a large language model trained on public code",
+      "By using a fixed set of code snippets",
+      "By using a rule-based system"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 15,
+    "text": "Can GitHub Copilot be used for writing documentation?",
+    "options": [
+      "Yes, it can help write documentation",
+      "Only for Python documentation",
+      "Only for JavaScript documentation"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 16,
+    "text": "What is the main benefit of using GitHub Copilot?",
+    "options": [
+      "It helps developers write code faster",
+      "It replaces the need for human developers",
+      "It makes projects open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 17,
+    "text": "How does GitHub Copilot handle code context?",
+    "options": [
+      "It uses the context of the current file and function",
+      "It only uses the context of the current line",
+      "It uses the context of the entire project"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 18,
+    "text": "What is the GitHub Copilot Labs feature?",
+    "options": [
+      "A feature for experimenting with new AI models",
+      "A feature for testing code",
+      "A feature for managing issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 19,
+    "text": "Can GitHub Copilot be used in Visual Studio Code?",
+    "options": [
+      "Yes, it has an extension for Visual Studio Code",
+      "Only in the web version of Visual Studio Code",
+      "Only in the desktop version of Visual Studio Code"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 20,
+    "text": "What is the GitHub Copilot for Business plan?",
+    "options": [
+      "A paid plan for teams and organizations",
+      "A plan for open-source projects",
+      "A plan for educational institutions"
+    ],
+    "correctAnswer": 0,
+    "domain": "How GitHub Copilot Works and Handles Data"
+  },
+  {
+    "id": 21,
+    "text": "How does GitHub Copilot generate code suggestions?",
+    "options": [
+      "By using a large language model trained on public code",
+      "By analyzing the entire internet",
+      "By using a fixed set of code snippets"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 22,
+    "text": "What type of data does GitHub Copilot use for training?",
+    "options": [
+      "Publicly available code",
+      "Only Python code",
+      "Only JavaScript code"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 23,
+    "text": "How does GitHub Copilot ensure the privacy of user data?",
+    "options": [
+      "By not storing any user data",
+      "By anonymizing and aggregating data",
+      "By using encryption"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 24,
+    "text": "What is the role of the OpenAI Codex model in GitHub Copilot?",
+    "options": [
+      "It generates code suggestions",
+      "It tracks issues",
+      "It handles pull requests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 26,
+    "text": "Can GitHub Copilot access private repositories?",
+    "options": [
+      "Yes, with user permission",
+      "Only for open-source projects",
+      "Only for educational institutions"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 28,
+    "text": "How does GitHub Copilot handle user feedback?",
+    "options": [
+      "It uses feedback to improve suggestions",
+      "It stores feedback securely",
+      "It shares feedback with other users"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 29,
+    "text": "What is the main source of training data for GitHub Copilot?",
+    "options": [
+      "Publicly available code",
+      "Only Python code",
+      "Only JavaScript code"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 30,
+    "text": "How does GitHub Copilot ensure the quality of code suggestions?",
+    "options": [
+      "By using a large language model trained on high-quality code",
+      "By analyzing the entire internet",
+      "By using a fixed set of code snippets"
+    ],
+    "correctAnswer": 0,
+    "domain": "Prompt Crafting and Prompt Engineering"
+  },
+  {
+    "id": 31,
+    "text": "What is prompt engineering?",
+    "options": [
+      "The process of designing and refining prompts for AI models",
+      "The process of managing repositories",
+      "The process of testing code"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 32,
+    "text": "Why is prompt crafting important for GitHub Copilot?",
+    "options": [
+      "To improve the accuracy and relevance of code suggestions",
+      "To reduce the cost of AI systems",
+      "To make projects open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 33,
+    "text": "What is a good practice for crafting effective prompts?",
+    "options": [
+      "Using clear and specific prompts",
+      "Using long and complex prompts",
+      "Using short and ambiguous prompts"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 34,
+    "text": "How can you refine a prompt to get better code suggestions?",
+    "options": [
+      "By making the prompt more specific",
+      "By making the prompt longer",
+      "By making the prompt shorter"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 35,
+    "text": "What is the role of context in prompt engineering?",
+    "options": [
+      "To use the context to generate relevant suggestions",
+      "To store the context securely",
+      "To share the context with other users"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 37,
+    "text": "What is a common mistake in prompt crafting?",
+    "options": [
+      "Using vague and general prompts",
+      "Using short and ambiguous prompts",
+      "Using long and complex prompts"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 39,
+    "text": "What is the benefit of using examples in prompts?",
+    "options": [
+      "To provide clear guidance to the AI model",
+      "To make the prompt longer",
+      "To make the prompt shorter"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 40,
+    "text": "How can you improve a prompt that is not generating good suggestions?",
+    "options": [
+      "By making the prompt more specific",
+      "By making the prompt longer",
+      "By making the prompt shorter"
+    ],
+    "correctAnswer": 0,
+    "domain": "Developer Use Cases for AI"
+  },
+  {
+    "id": 41,
+    "text": "What is a common use case for AI in software development?",
+    "options": [
+      "Code completion and suggestions",
+      "Tracking issues",
+      "Handling pull requests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 42,
+    "text": "How can AI help with code reviews?",
+    "options": [
+      "By providing automated code analysis and suggestions",
+      "By managing repositories",
+      "By tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 43,
+    "text": "What is the benefit of using AI for bug detection?",
+    "options": [
+      "To identify and fix bugs faster",
+      "To make projects open-source",
+      "To manage repositories"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 44,
+    "text": "How can AI assist with documentation?",
+    "options": [
+      "By generating and maintaining documentation",
+      "By managing repositories",
+      "By tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 45,
+    "text": "What is a use case for AI in project management?",
+    "options": [
+      "Automated task assignment and tracking",
+      "Handling pull requests",
+      "Writing code"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 46,
+    "text": "How can AI help with testing?",
+    "options": [
+      "By generating test cases and automating tests",
+      "By managing repositories",
+      "By tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 47,
+    "text": "What is the role of AI in continuous integration and deployment (CI/CD)?",
+    "options": [
+      "Automating build and deployment processes",
+      "Managing repositories",
+      "Tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 48,
+    "text": "How can AI improve code quality?",
+    "options": [
+      "By providing automated code analysis and suggestions",
+      "By managing repositories",
+      "By tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 49,
+    "text": "What is a use case for AI in security?",
+    "options": [
+      "Identifying and mitigating security vulnerabilities",
+      "Managing repositories",
+      "Tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 50,
+    "text": "How can AI assist with code refactoring?",
+    "options": [
+      "By providing suggestions for improving code structure and readability",
+      "By managing repositories",
+      "By tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "Testing with GitHub Copilot"
+  },
+  {
+    "id": 51,
+    "text": "How can GitHub Copilot assist with writing test cases?",
+    "options": [
+      "By generating test cases based on code context",
+      "By tracking issues",
+      "By handling pull requests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 52,
+    "text": "What is the benefit of using GitHub Copilot for testing?",
+    "options": [
+      "To generate test cases faster and more accurately",
+      "To make projects open-source",
+      "To manage repositories"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 53,
+    "text": "How does GitHub Copilot handle test data?",
+    "options": [
+      "It generates test data based on code context",
+      "It stores test data securely",
+      "It shares test data with other users"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 54,
+    "text": "Can GitHub Copilot be used for unit testing?",
+    "options": [
+      "Yes, it can generate unit tests",
+      "Only for Python unit tests",
+      "Only for JavaScript unit tests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 55,
+    "text": "What is the role of GitHub Copilot in integration testing?",
+    "options": [
+      "It generates integration tests based on code context",
+      "It tracks issues",
+      "It handles pull requests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 56,
+    "text": "How can GitHub Copilot help with test automation?",
+    "options": [
+      "By generating and maintaining automated tests",
+      "By managing repositories",
+      "By tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 57,
+    "text": "What is a common use case for GitHub Copilot in testing?",
+    "options": [
+      "Generating test cases and test data",
+      "Managing repositories",
+      "Tracking issues"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 58,
+    "text": "How does GitHub Copilot ensure the quality of generated tests?",
+    "options": [
+      "By using a large language model trained on high-quality code",
+      "By analyzing the entire internet",
+      "By using a fixed set of code snippets"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 59,
+    "text": "Can GitHub Copilot be used for end-to-end testing?",
+    "options": [
+      "Yes, it can generate end-to-end tests",
+      "Only for Python end-to-end tests",
+      "Only for JavaScript end-to-end tests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 60,
+    "text": "What is the benefit of using GitHub Copilot for regression testing?",
+    "options": [
+      "To generate regression tests faster and more accurately",
+      "To make projects open-source",
+      "To manage repositories"
+    ],
+    "correctAnswer": 0,
+    "domain": "Privacy Fundamentals and Context Exclusions"
+  },
+  {
+    "id": 61,
+    "text": "What is the importance of privacy in AI?",
+    "options": [
+      "To protect user data and ensure ethical use of AI",
+      "To reduce the cost of AI systems",
+      "To make AI systems open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 62,
+    "text": "How does GitHub Copilot handle user data?",
+    "options": [
+      "By anonymizing and aggregating data",
+      "By not storing any user data",
+      "By using encryption"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 63,
+    "text": "What is context exclusion in GitHub Copilot?",
+    "options": [
+      "Excluding sensitive information from code suggestions",
+      "Storing the context securely",
+      "Sharing the context with other users"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 64,
+    "text": "Why is it important to exclude sensitive information from code suggestions?",
+    "options": [
+      "To protect user privacy and prevent data leaks",
+      "To reduce the cost of AI systems",
+      "To make AI systems open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 65,
+    "text": "How can developers ensure their code does not contain sensitive information?",
+    "options": [
+      "By reviewing and sanitizing their code",
+      "By making their code open-source",
+      "By using long and complex prompts"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 66,
+    "text": "What is the role of encryption in protecting user data?",
+    "options": [
+      "To secure data and prevent unauthorized access",
+      "To reduce the cost of AI systems",
+      "To make AI systems open-source"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 67,
+    "text": "How does GitHub Copilot ensure the privacy of code suggestions?",
+    "options": [
+      "By anonymizing and aggregating data",
+      "By not storing any suggestions",
+      "By using encryption"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 68,
+    "text": "Select a strategy to increase the performance of GitHub Copilot Chat.",
+    "options": [
+      "Limit the number of concurrent users accessing GitHub Copilot Chat",
+      "Apply prompt engineering techniques to be more specific",
+      "Optimize the usage of memory-intensive operations within generated"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 69,
+    "text": "What caution should developers exercise when using GitHub Copilot for assistance with mathematical computation?",
+    "options": [
+      "GitHub Copilot's reliance on pattern-based responses without verifying computation accuracy.",
+      "GitHub Copilot's automatic update of outdated mathematical formulas to modern standards.",
+      "GitHub Copilot's capability to optimize complex mathematical algorithms beyond manual coding"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 74,
+    "text": "How does GitHub Copilot typically handle code suggestions that involve deprecated features or syntax of programming languages?",
+    "options": [
+      "GitHub Copilot may suggest deprecated syntax or features if they are present in its training data.",
+      "GitHub Copilot automatically updates deprecated features in its suggestions to the latest version.",
+      "GitHub Copilot rejects all prompts involving deprecated features to avoid compilation errors"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 75,
+    "text": "What is used by GitHub Copilot in the IDE to determine the prompt context?",
+    "options": [
+      "All the code visible in the current IDE.",
+      "The open tabs in the IDE and the current folder of the terminal.",
+      "Information from the IDE like open tabs, cursor location, selected code."
+    ],
+    "correctAnswer": 2,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 79,
+    "text": "What GitHub Copilot configuration needs to be enabled to protect against IP infringements?",
+    "options": [
+      "Blocking public code matches",
+      "Allowing license check configuration",
+      "Blocking license check configuration"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 83,
+    "text": "What is a likely effect of GitHub Copilot being trained on commonly used code patterns?",
+    "options": [
+      "Suggest innovative coding solutions that are not yet popular.",
+      "Suggest code snippets that reflect the most common practices in the training data.",
+      "Suggest completely novel projects, while reducing time on a project."
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 84,
+    "text": "If you are working on open-source projects, GitHub Copilot Individual can be paid:",
+    "options": [
+      "Through an invoice or a credit card",
+      "Through an Azure Subscription",
+      "N/A - Copilot Individual is a free service for all open-source projects"
+    ],
+    "correctAnswer": 2,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 87,
+    "text": "What are the additional checks that need to pass before the GitHub Copilot responses are submitted to the user? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      "Performance benchmarking",
+      "Suggestions matching public code (optional based on settings)",
+      "Compatibility with user-specific settings"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 89,
+    "text": "When crafting prompts for GitHub Copilot, what is a recommended strategy to enhance the relevance of the generated code?",
+    "options": [
+      "Provide examples of expected input and output within the prompt.",
+      "Keep the prompt as short as possible, using single words or brief phrases.",
+      "Avoid mentioning the programming language to allow for more flexible suggestions."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 90,
+    "text": "What kind of insights can the GitHub Copilot usage metrics API provide to help evaluate the effectiveness of GitHub Copilot? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      "The API can track the number of code suggestions accepted and used in the organization.",
+      "The API can refactor your code to improve productivity.",
+      "The API can provide feedback on coding style and standards compliance.",
+      "The API can provide Copilot Chat specific suggestions acceptance metrics."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 91,
+    "text": "How do you generate code suggestions with GitHub Copilot in the CLI?",
+    "options": [
+      "Use gh copilot suggest → Write the command you want → Select the best suggestion from the list.",
+      "Type out the code snippet → Use the copilot refine command to enhance it → Review the suggested command.",
+      "Describe the project’s architecture → Use the copilot generate command → Accept the generated suggestion."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 92,
+    "text": "Why is it important to ensure the security of the code used in Generative AI (Gen AI) tools?",
+    "options": [
+      "Ensuring code security prevents unauthorized access and potential data breaches.",
+      "Ensuring code security supports the development of more advanced AI features.",
+      "Ensuring code security enables the AI system to handle larger datasets effectively."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 93,
+    "text": "Which GitHub Copilot pricing plans include features that exclude your GitHub Copilot data like usage, prompts, and suggestions from default training GitHub Copilot? (Choose two)",
+    "options": [
+      "GitHub Copilot Business",
+      "GitHub Copilot Enterprise",
+      "GitHub Copilot Codespace"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 94,
+    "text": "When using GitHub Copilot Chat to generate boilerplate code for various test types, how can you guide the AI to follow the testing standards of your company?",
+    "options": [
+      "By using specific prompt examples in your chat request.",
+      "By using a specific command in the terminal.",
+      "By using a specific setting in GitHub Copilot’s configuration."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 96,
+    "text": "Which of the following steps correctly demonstrates how to establish an organization-wide policy for GitHub Copilot Business to restrict its use to certain repositories?",
+    "options": [
+      "Configure the policies in the organization settings",
+      "Create a copilot.policy in the .github repository",
+      "Apply policies through the GitHub Actions configuration"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 97,
+    "text": "What is zero-shot prompting?",
+    "options": [
+      "Telling GitHub Copilot, it needs to show only the correct answer",
+      "Only giving GitHub Copilot a question as a prompt and no examples",
+      "Giving GitHub Copilot examples of the problem you want to solve",
+      "Giving GitHub Copilot examples of the algorithm and outcome you want to use"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 98,
+    "text": "How does GitHub Copilot assist developers in reducing the amount of manual boilerplate code they write?",
+    "options": [
+      "By predicting future coding requirements and pre-emptively generating boilerplate code.",
+      "By suggesting code snippets that can be reused across different parts of the project.",
+      "By engaging in real-time collaboration with multiple developers to write boilerplate code."
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 99,
+    "text": "What is the primary purpose of organization audit logs in GitHub Copilot Business?",
+    "options": [
+      "To monitor administrator activities and actions within the organization",
+      "To monitor code conflicts across repositories",
+      "To assign software licenses within the organization"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 100,
+    "text": "How can users provide feedback about GitHub Copilot Chat using their IDE?",
+    "options": [
+      "Through the \"Share Feedback\" button in the Copilot Chat panel.",
+      "By posting on the GitHub forums.",
+      "By filling out a feedback form on the GitHub website."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 102,
+    "text": "Which GitHub Copilot plan could an Azure DevOps organization use without requiring a GitHub Enterprise license?",
+    "options": [
+      "GitHub Copilot Enterprise",
+      "GitHub Copilot for Azure DevOps",
+      "Copilot Teams"
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 103,
+    "text": "What is a benefit of using custom models in GitHub Copilot?",
+    "options": [
+      "Responses use practices and patterns in your repositories",
+      "Responses use the organization's LLM engine",
+      "Responses are guaranteed to be correct"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 104,
+    "text": "What is the main purpose of the duplication detection filter in GitHub Copilot?",
+    "options": [
+      "To compare user-generated code against a private repository for potential matches.",
+      "To allow administrators to control which suggestions are visible to developers based on custom criteria.",
+      "To detect and block suggestions that match public code snippets on GitHub if they contain about 150 characters."
+    ],
+    "correctAnswer": 2,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 105,
+    "text": "What can be done during AI development to minimize bias?",
+    "options": [
+      "Collect massive amounts of data for training.",
+      "Use diverse data, fairness metrics, and human oversight.",
+      "Improve on the computational efficiency and speed."
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 107,
+    "text": "What are the potential limitations of GitHub Copilot in maintaining existing codebases?",
+    "options": [
+      "GitHub Copilot might not fully understand the context and dependencies within a large codebase.",
+      "GitHub Copilot can independently manage and resolve all merge conflicts in version control.",
+      "GitHub Copilot's suggestions are always aware of the entire codebase."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 109,
+    "text": "When using GitHub Copilot Chat to generate unit tests, which slash command would you use?",
+    "options": [
+      "/tests",
+      "/create-tests",
+      "/init-tests"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 110,
+    "text": "What content can be configured to be excluded with content exclusions? (Each correct answer presents part of the solution. Choose three.)",
+    "options": [
+      "Files",
+      "Folders",
+      "Repositories",
+      "Gists"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 111,
+    "text": "Where can you validate if GitHub Copilot is not returning suggestions because of content exclusions?",
+    "options": [
+      "The GitHub Copilot icon in the status bar of the editor will display a message",
+      "The GitHub Copilot errors panel in your IDE",
+      "The code suggestions window will display a warning message"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 112,
+    "text": "Are there any limitations to consider when using GitHub Copilot for code refactoring?",
+    "options": [
+      "GitHub Copilot understands the context of your entire project and refactors code accordingly.",
+      "GitHub Copilot can only be used with a limited set of programming languages.",
+      "GitHub Copilot may not always produce optimized or best-practice code for refactoring."
+    ],
+    "correctAnswer": 2,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 113,
+    "text": "Identify the steps involved in the life cycle of a GitHub Copilot code suggestion? (Each correct presents part of the solution. Choose two.)",
+    "options": [
+      "Capturing the user's context",
+      "Storing user data",
+      "Retraining the model",
+      "Generate suggestions"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 115,
+    "text": "What is the impact of the \"Fill-In-the-Middle\" (FIM) technique on GitHub Copilot's code suggestions?",
+    "options": [
+      "Ignores both the prefix and suffix of the code, focusing only on user comments for context.",
+      "Improves suggestions by considering both the prefix and suffix of the code, filling in the middle part more accurately",
+      "Restricts Copilot to use only external databases for generating code suggestions."
+    ],
+    "correctAnswer": 1,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 118,
+    "text": "In what ways can GitHub Copilot contribute to the design phase of the Software Development Life Cycle (SDLC)",
+    "options": [
+      "GitHub Copilot can suggest design patterns and best practices relevant to the project.",
+      "GitHub Copilot can generate user interface (UI) prototypes without prompting.",
+      "GitHub Copilot can manage design team collaboration and version control."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 119,
+    "text": "Which Microsoft ethical AI principle is aimed at ensuring AI systems treat all people equally?",
+    "options": [
+      "Fairness",
+      "Reliability and Safety",
+      "Inclusiveness"
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 120,
+    "text": "How does GitHub Copilot assist developers in minimizing context switching?",
+    "options": [
+      "GitHub Copilot allows developers to stay in their IDE.",
+      "GitHub Copilot can completely replace the need for human collaboration.",
+      "GitHub Copilot can predict and prevent bugs before they occur."
+    ],
+    "correctAnswer": 0,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 121,
+    "text": "What is few-shot prompting?",
+    "options": [
+      "Telling GitHub Copilot to iterate several times on the answer before returning it to you",
+      "Telling GitHub Copilot about the mechanism you want it to use and how to incorporate that into the response",
+      "Giving GitHub Copilot examples of the problem you want to solve"
+    ],
+    "correctAnswer": 2,
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 122,
+    "text": "What type of information can you retrieve through GitHub Copilot Business Subscriptions via REST API? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      "List all GitHub Copilot seat assignments for an organization",
+      "Get a summary of GitHub Copilot usage for organization members",
+      "List of all unsubscribed GitHub Copilot members within an organization",
+      "To maximize profits from AI systems",
+      "To develop AI systems as quickly as possible",
+      "To ensure AI systems are safe, trustworthy, and ethical",
+      "To replace human decision-making with AI",
+      "Fairness",
+      "Innovation",
+      "Inclusiveness",
+      "Accountability",
+      "Maximizing AI performance",
+      "Ensuring AI performs equally well across demographic groups",
+      "Prioritizing profitability",
+      "Creating understandable AI systems",
+      "Ignoring the issue",
+      "Providing more data",
+      "Reviewing training data and using adversarial debiasing",
+      "Allowing users to modify outputs",
+      "Keeping AI operations secret",
+      "Making AI decisions understandable and clear",
+      "Hiding system limitations",
+      "Prioritizing efficiency",
+      "To reduce development time",
+      "To ensure alignment with project requirements",
+      "To enhance creativity",
+      "To improve system performance",
+      "VPN Proxy support via self-signed certificates",
+      "Multi-line function suggestions",
+      "Editor integration",
+      "Blocks suggestions matching public code",
+      "70%",
+      "83%",
+      "65%",
+      "90%",
+      "Policies",
+      "Your organizations in your profile dropdown menu",
+      "Settings in your profile dropdown menu",
+      "Selected teams/users",
+      "Copilot Chat Customized to your Codebase",
+      "Copilot Pull Request Summaries",
+      "Copilot Documentation Search",
+      "None of the above",
+      "Uses open-source libraries only",
+      "Tailors assistance to organizational standards",
+      "Suggests code without project context",
+      "Randomly generates snippets",
+      "Provides detailed change history",
+      "Automatically generates concise overviews to accelerate reviews",
+      "Tracks developer activity",
+      "None of the above",
+      "$0",
+      "$10",
+      "$19",
+      "$39",
+      "Copilot Free",
+      "Copilot Pro",
+      "Copilot Business",
+      "Copilot Enterprise",
+      "Copilot Free",
+      "Copilot Pro",
+      "Copilot Business",
+      "Copilot Enterprise",
+      "500",
+      "1,000",
+      "2,000",
+      "Unlimited",
+      "Real-time suggestions",
+      "Copilot Workspace for natural language development",
+      "Access to premium models",
+      "CLI integration",
+      "Copilot Free",
+      "Copilot Pro",
+      "Copilot Business",
+      "Copilot Enterprise",
+      "Copilot Pro",
+      "Copilot Business",
+      "Copilot Enterprise",
+      "Copilot Free",
+      "$10",
+      "$19",
+      "$39",
+      "Free",
+      "Visual Studio only",
+      "Visual Studio and VS Code only",
+      "Visual Studio, VS Code, and other IDEs",
+      "Command-line only",
+      "Only public code",
+      "Code snippets, comments, and user interactions",
+      "User’s browsing history",
+      "System hardware details",
+      "User’s local machine",
+      "GitHub’s Azure servers",
+      "Third-party servers",
+      "OpenAI’s servers",
+      "Plaintext transfer",
+      "Encrypted HTTPS",
+      "Local storage only",
+      "Email-based transfer",
+      "Stored indefinitely",
+      "Shared with third parties",
+      "Discarded unless retention is enabled",
+      "Used for training",
+      "Syntax highlighter",
+      "Code scanning tools",
+      "IDE debugger",
+      "Version control",
+      "Using ambiguous language",
+      "Providing clear/specific instructions",
+      "Including sensitive data",
+      "Limiting prompts to one word",
+      "Analyzing public repositories",
+      "Using open files and project structure",
+      "Disabling IDE integrations",
+      "Deleting chat history",
+      "Only Python",
+      "Only English",
+      "Multiple programming/natural languages",
+      "Only Markdown",
+      ".gitignore",
+      ".github/copilot-instructions.md",
+      "README.md",
+      ".gitconfig",
+      "Rewriting entire codebases",
+      "Providing real-time syntax suggestions",
+      "Disabling other IDE features",
+      "Creating new repositories",
+      "Generating UML diagrams",
+      "Creating contextually relevant comments",
+      "Translating documentation",
+      "Creating project reports",
+      "Using the current date",
+      "Using 'YYYY-MM-DD' format",
+      "Testing February 29 on a non-leap year",
+      "Testing random strings",
+      "Only supports JavaScript",
+      "May not cover all scenarios",
+      "Can’t integrate with VS Code",
+      "Requires manual execution",
+      "Copilot Free",
+      "Copilot Pro",
+      "Copilot Business",
+      "Copilot Enterprise",
+      "Indefinitely",
+      "28 days",
+      "90 days",
+      "Never stored",
+      "Filtering suggestions",
+      "Capturing IDE context",
+      "Sending to third parties",
+      "Generating documentation",
+      "Syntax filter",
+      "Duplication detection",
+      "Color filter",
+      "Font filter"
+    ],
+    "correctAnswer": 152,
+    "domain": "Responsible AI"
+  }
+]
