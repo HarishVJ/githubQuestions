@@ -110,8 +110,10 @@ function App() {
   const progress = ((state.currentQuestionIndex + 1) / state.totalQuestions) * 100;
   const isAnswerCorrect = selectedAnswers.length > 0 && currentQuestion && (
     Array.isArray(currentQuestion.correctAnswer)
-      ? (currentQuestion.correctAnswer as number[]).every(answer => selectedAnswers.includes(answer)) && 
-        selectedAnswers.every(answer => (currentQuestion.correctAnswer as number[]).includes(answer))
+      ? currentQuestion.correctAnswer.length > 1
+        ? (currentQuestion.correctAnswer as number[]).every(answer => selectedAnswers.includes(answer)) && 
+          selectedAnswers.every(answer => (currentQuestion.correctAnswer as number[]).includes(answer))
+        : selectedAnswers[0] === currentQuestion.correctAnswer[0]
       : selectedAnswers[0] === currentQuestion.correctAnswer
   );
 
