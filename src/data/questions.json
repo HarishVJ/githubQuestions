@@ -1221,5 +1221,791 @@
     ],
     "correctAnswer": 152,
     "domain": "Responsible AI"
+  },
+  {
+    "id": 123,
+    "text": "How do the limitations of GitHub Copilot’s context window affect its ability to generate accurate and complete suggestions, especially in large codebases?",
+    "options": [
+      "Copilot analyzes the entire codebase across all files before generating each suggestion, ensuring complete awareness of large projects.",
+      "Copilot’s limited context window may prevent it from accessing relevant information beyond a certain number of tokens, causing it to miss relationships in large files or across modules.",
+      "Copilot dynamically increases its context window by analyzing memory usage and CPU threads, ensuring accurate suggestions for high-performance code.",
+      "There is no such limitation in Copilot, as it uses file indexing to store and retrieve the full scope of a project in memory for every suggestion."
+    ],
+    "correctAnswer": [1],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 124,
+    "text": "Which of the following are valid uses of the @vscode chat participant?",
+    "options": [
+      "Asking how to debug a Node.js application in VS Code",
+      "Requesting code generation for a Python function",
+      "Inquiring about changing VS Code color themes",
+      "Asking for help with a command-line error"
+    ],
+    "correctAnswer": [0, 2],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 125,
+    "text": "Which of the following statements BEST describes the fundamental role of prompt crafting in effectively utilizing GitHub Copilot?",
+    "options": [
+      "Prompt crafting primarily focuses on selecting the correct programming language for Copilot to generate code in.",
+      "Prompt crafting involves providing clear and specific instructions to guide Copilot's code generation and suggestions towards the user's intended outcome.",
+      "Prompt crafting mainly concerns optimizing the user's IDE settings to enhance Copilot's performance and responsiveness.",
+      "Prompt crafting is about understanding the underlying machine learning models of Copilot to predict its output accurately."
+    ],
+    "correctAnswer": [1],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 126,
+    "text": "Where can a user enable or disable prompt and suggestion collection for GitHub Copilot?",
+    "options": [
+      "GitHub Desktop Settings > AI Preferences",
+      "GitHub.com > User Settings > Copilot > Telemetry",
+      "Copilot Chat > Settings Menu.",
+      "VS Code > Extensions > Privacy Preferences"
+    ],
+    "correctAnswer": [1],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 127,
+    "text": "Which of the following features is exclusive to GitHub Copilot Enterprise (and not in Business or Individual plans)?",
+    "options": [
+      "Support for multiple IDEs including VS Code and JetBrains",
+      "Access to organizational context, such as internal code repositories"
+    ],
+    "correctAnswer": [1],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 128,
+    "text": "Consider the following prompt provided to GitHub Copilot: # Python function to calculate the factorial of a given non-negative integer. def factorial(n): In this prompt, which of the following BEST identifies the different parts present?",
+    "options": [
+      "Only the task description is present.",
+      "Only the code context is present.",
+      "Both the task description and the code context are present.",
+      "Neither the task description nor the code context is explicitly present."
+    ],
+    "correctAnswer": [2],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 129,
+    "text": "What is the primary function of the command gh copilot suggest?",
+    "options": [
+      "To initiate an interactive session where Copilot helps you construct a command.",
+      "To automatically execute a series of commands based on a predefined alias.",
+      "To update the Copilot in the CLI extension to the latest version.",
+      "To provide an explanation of a given command."
+    ],
+    "correctAnswer": [0],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 130,
+    "text": "Which of the following statements accurately compares the different GitHub Copilot SKUs and their associated privacy considerations?",
+    "options": [
+      "Copilot Individual provides full admin-level control over code suggestion filters and telemetry data, similar to Copilot Business and Enterprise.",
+      "Copilot Business and Enterprise allow for disabling training on organization data and restricting suggestions from public code, while Copilot Individual does not offer these controls.",
+      "Copilot Enterprise allows telemetry opt-out at the user level, while Copilot Individual always shares usage data with GitHub.",
+      "Copilot Business for non-GitHub Enterprise customers offers the same privacy options as Copilot Individual due to licensing restrictions."
+    ],
+    "correctAnswer": [1],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 131,
+    "text": "Where can an individual subscriber manage their GitHub Copilot settings?",
+    "options": [
+      "Through the GitHub Enterprise Cloud administration panel",
+      "In the Copilot plugin settings within your IDE",
+      "By contacting GitHub support and requesting changes",
+      "On the GitHub website under the user's profile settings"
+    ],
+    "correctAnswer": [3],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 132,
+    "text": "How can you ask Copilot Chat to explain the last command you ran in the terminal and any errors it might have produced?",
+    "options": [
+      "@terminal #terminalLastCommand",
+      "@terminal #terminalLastCommand to explain the last command and any errors",
+      "explain the last command and any errors",
+      "@terminal explain the last command"
+    ],
+    "correctAnswer": [3],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 133,
+    "text": "What feature allows GitHub Copilot Business users to ensure private code is not used in model training?",
+    "options": [
+      "Auto-encryption",
+      "Code indexing",
+      "Data exclusion policy"
+    ],
+    "correctAnswer": [2],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 134,
+    "text": "Which of the following is an input type Copilot Chat is specifically optimized to handle?",
+    "options": [
+      "Non-programming queries",
+      "Structured code prompts, debugging instructions, and refactor requests",
+      "Financial data processing",
+      "Hardware driver commands"
+    ],
+    "correctAnswer": [1],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 135,
+    "text": "What is the primary distinction between the roles of the proxy server and the foundational LLMs in the GitHub Copilot data pipeline?",
+    "options": [
+      "The proxy server filters and preprocesses prompts, while the LLMs generate code suggestions based on the processed input.",
+      "The proxy server stores and manages user data, while the LLMs are responsible for training and model improvement.",
+      "The proxy server handles user authentication and authorization, while the LLMs focus on natural language processing tasks.",
+      "The proxy server handles code generation, while the LLMs focus on filtering and security."
+    ],
+    "correctAnswer": [0],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 136,
+    "text": "How can GitHub Copilot support security and performance in a collaborative development environment?",
+    "options": [
+      "By running OWASP security tests automatically with every code suggestion.",
+      "By reviewing code after deployment and rewriting it to address vulnerabilities.",
+      "By suggesting security best practices such as input validation, safe API usage, and detecting insecure patterns during code writing and code reviews (especially with Copilot Enterprise).",
+      "By disabling Copilot in environments with any network access to prevent data leaks."
+    ],
+    "correctAnswer": [2],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 137,
+    "text": "When configuring content exclusions for an organization, how can you specify files to be excluded from Copilot's access?",
+    "options": [
+      "Only by using wildcards to match patterns in file names.",
+      "Copilot automatically excludes sensitive files, so no manual configuration is needed.",
+      "Only by referencing the specific Git repository where the files are located.",
+      "By referencing the Git repository and then listing specific paths within that repository."
+    ],
+    "correctAnswer": [3],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 138,
+    "text": "When a developer uses GitHub Copilot, what information is NOT included in the data sent to the Copilot service?",
+    "options": [
+      "The programming language being used",
+      "The user's current cursor position in the code",
+      "The user's login credentials",
+      "The code in the current file"
+    ],
+    "correctAnswer": [2],
+    "domain": "GitHub Copilot Certification"
+  },
+  {
+    "id": 139,
+    "text": "When crafting prompts for GitHub Copilot to create comprehensive unit tests for a Python function, which critical aspects should be explicitly requested? (Select two)",
+    "options": [
+      "Requesting verification for anticipated raised exceptions.",
+      "Including coverage for boundary conditions (edge cases).",
+      "Asking Copilot to name the test class specifically.",
+      "Providing example inputs and expected outputs directly."
+    ],
+    "correctAnswer": [0, 1],
+    "domain": "GitHub Copilot Certification"
   }
+,
+  {
+      "id": 124,
+      "text": "Which of the following are valid uses of the @vscode chat participant?",
+      "options": [
+        "Asking how to debug a Node.js application in VS Code",
+        "Requesting code generation for a Python function",
+        "Inquiring about changing VS Code color themes",
+        "Asking for help with a command-line error"
+      ],
+      "correctAnswer": [0, 2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 125,
+      "text": "Which of the following statements BEST describes the fundamental role of prompt crafting in effectively utilizing GitHub Copilot?",
+      "options": [
+        "Prompt crafting primarily focuses on selecting the correct programming language for Copilot to generate code in.",
+        "Prompt crafting involves providing clear and specific instructions to guide Copilot's code generation and suggestions towards the user's intended outcome.",
+        "Prompt crafting mainly concerns optimizing the user's IDE settings to enhance Copilot's performance and responsiveness.",
+        "Prompt crafting is about understanding the underlying machine learning models of Copilot to predict its output accurately."
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 126,
+      "text": "Where can a user enable or disable prompt and suggestion collection for GitHub Copilot?",
+      "options": [
+        "GitHub Desktop Settings > AI Preferences",
+        "GitHub.com > User Settings > Copilot > Telemetry",
+        "Copilot Chat > Settings Menu.",
+        "VS Code > Extensions > Privacy Preferences"
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 127,
+      "text": "Which of the following features is exclusive to GitHub Copilot Enterprise (and not in Business or Individual plans)?",
+      "options": [
+        "Support for multiple IDEs including VS Code and JetBrains",
+        "Access to organizational context, such as internal code repositories"
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 128,
+      "text": "Consider the following prompt provided to GitHub Copilot: # Python function to calculate the factorial of a given non-negative integer. def factorial(n): In this prompt, which of the following BEST identifies the different parts present?",
+      "options": [
+        "Only the task description is present.",
+        "Only the code context is present.",
+        "Both the task description and the code context are present.",
+        "Neither the task description nor the code context is explicitly present."
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 129,
+      "text": "What is the primary function of the command gh copilot suggest?",
+      "options": [
+        "To initiate an interactive session where Copilot helps you construct a command.",
+        "To automatically execute a series of commands based on a predefined alias.",
+        "To update the Copilot in the CLI extension to the latest version.",
+        "To provide an explanation of a given command."
+      ],
+      "correctAnswer": [0],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 130,
+      "text": "Which of the following statements accurately compares the different GitHub Copilot SKUs and their associated privacy considerations?",
+      "options": [
+        "Copilot Individual provides full admin-level control over code suggestion filters and telemetry data, similar to Copilot Business and Enterprise.",
+        "Copilot Business and Enterprise allow for disabling training on organization data and restricting suggestions from public code, while Copilot Individual does not offer these controls.",
+        "Copilot Enterprise allows telemetry opt-out at the user level, while Copilot Individual always shares usage data with GitHub.",
+        "Copilot Business for non-GitHub Enterprise customers offers the same privacy options as Copilot Individual due to licensing restrictions."
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 131,
+      "text": "Where can an individual subscriber manage their GitHub Copilot settings?",
+      "options": [
+        "Through the GitHub Enterprise Cloud administration panel",
+        "In the Copilot plugin settings within your IDE",
+        "By contacting GitHub support and requesting changes",
+        "On the GitHub website under the user's profile settings"
+      ],
+      "correctAnswer": [3],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 132,
+      "text": "How can you ask Copilot Chat to explain the last command you ran in the terminal and any errors it might have produced?",
+      "options": [
+        "@terminal #terminalLastCommand",
+        "@terminal #terminalLastCommand to explain the last command and any errors",
+        "explain the last command and any errors",
+        "@terminal explain the last command"
+      ],
+      "correctAnswer": [3],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 133,
+      "text": "What feature allows GitHub Copilot Business users to ensure private code is not used in model training?",
+      "options": [
+        "Auto-encryption",
+        "Code indexing",
+        "Data exclusion policy"
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 134,
+      "text": "Which of the following is an input type Copilot Chat is specifically optimized to handle?",
+      "options": [
+        "Non-programming queries",
+        "Structured code prompts, debugging instructions, and refactor requests",
+        "Financial data processing",
+        "Hardware driver commands"
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 135,
+      "text": "What is the primary distinction between the roles of the proxy server and the foundational LLMs in the GitHub Copilot data pipeline?",
+      "options": [
+        "The proxy server filters and preprocesses prompts, while the LLMs generate code suggestions based on the processed input.",
+        "The proxy server stores and manages user data, while the LLMs are responsible for training and model improvement.",
+        "The proxy server handles user authentication and authorization, while the LLMs focus on natural language processing tasks.",
+        "The proxy server handles code generation, while the LLMs focus on filtering and security."
+      ],
+      "correctAnswer": [0],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 136,
+      "text": "How can GitHub Copilot support security and performance in a collaborative development environment?",
+      "options": [
+        "By running OWASP security tests automatically with every code suggestion.",
+        "By reviewing code after deployment and rewriting it to address vulnerabilities.",
+        "By suggesting security best practices such as input validation, safe API usage, and detecting insecure patterns during code writing and code reviews (especially with Copilot Enterprise).",
+        "By disabling Copilot in environments with any network access to prevent data leaks."
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 137,
+      "text": "When configuring content exclusions for an organization, how can you specify files to be excluded from Copilot's access?",
+      "options": [
+        "Only by using wildcards to match patterns in file names.",
+        "Copilot automatically excludes sensitive files, so no manual configuration is needed.",
+        "Only by referencing the specific Git repository where the files are located.",
+        "By referencing the Git repository and then listing specific paths within that repository."
+      ],
+      "correctAnswer": [3],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 138,
+      "text": "When a developer uses GitHub Copilot, what information is NOT included in the data sent to the Copilot service?",
+      "options": [
+        "The programming language being used",
+        "The user's current cursor position in the code",
+        "The user's login credentials",
+        "The code in the current file"
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 139,
+      "text": "When crafting prompts for GitHub Copilot to create comprehensive unit tests for a Python function, which critical aspects should be explicitly requested? (Select two)",
+      "options": [
+        "Requesting verification for anticipated raised exceptions.",
+        "Including coverage for boundary conditions (edge cases).",
+        "Asking Copilot to name the test class specifically.",
+        "Providing example inputs and expected outputs directly."
+      ],
+      "correctAnswer": [0, 1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 140,
+      "text": "Which of the following is NOT a valid example of an effective prompt for GitHub Copilot Chat?",
+      "options": [
+        "Suggest refactoring updates to enhance the modularity of the User class.",
+        "Enhance data encryption in the UserCredentials class to protect user passwords.",
+        "Improve the code.",
+        "Optimize the sorting algorithm used in the ProductList class to improve performance."
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 141,
+      "text": "What is the function of the /clear command in Copilot Chat?",
+      "options": [
+        "To erase the chat history and start a fresh conversation.",
+        "To remove all code suggestions from the current chat session.",
+        "To terminate the Copilot Chat session and close the chat view.",
+        "To reset Copilot Chat to its default settings."
+      ],
+      "correctAnswer": [0],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 142,
+      "text": "How can developers provide feedback on GitHub Copilot Chat?",
+      "options": [
+        "GitHub Support Tickets only",
+        "Feedback buttons in chat interface",
+        "Email GitHub Engineering",
+        "Update your GitHub status"
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 143,
+      "text": "How does GitHub Copilot gather context for its code suggestions?",
+      "options": [
+        "Only based on file name",
+        "From recent commit history only",
+        "From current file, surrounding code, and sometimes neighboring files in the project",
+        "From GitHub trending repositories"
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 144,
+      "text": "What is the purpose of the 'selected teams' parameter in the request body when adding or removing teams from the Copilot subscription?",
+      "options": [
+        "It specifies the list of team names to be granted or revoked access to GitHub Copilot.",
+        "It indicates the billing cycle for the added or removed teams.",
+        "It defines the specific set of permissions for the teams regarding Copilot usage.",
+        "It sets the suggestion matching policy for the specified teams."
+      ],
+      "correctAnswer": [0],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 145,
+      "text": "Which of the following capabilities is a core feature of GitHub Copilot Chat in supported IDEs?",
+      "options": [
+        "Managing GitHub project boards directly",
+        "Executing shell commands in the IDE",
+        "Asking natural language questions about code and getting inline AI responses",
+        "Generating deployment YAML files without repository context"
+      ],
+      "correctAnswer": [2],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 146,
+      "text": "To maintain focused and relevant conversation context across related prompts in Copilot Chat, which actions are recommended? (Select two correct answers)",
+      "options": [
+        "Using threads to separate distinct topics or tasks.",
+        "Deleting requests that are no longer relevant to the current task.",
+        "Including a full summary of the task in each prompt.",
+        "Referencing only the immediately preceding response."
+      ],
+      "correctAnswer": [0, 1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 147,
+      "text": "What is the purpose of the \"Console\" tab within the Developer Tools window?",
+      "options": [
+        "To adjust the settings and configurations for GitHub Copilot.",
+        "To show any errors or warnings related to Copilot or the IDE.",
+        "To visualize the network traffic between Copilot and the IDE.",
+        "To display real-time code suggestions from Copilot."
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 148,
+      "text": "In the context of GitHub Copilot Enterprise, what are dockets (Knowledge Bases)?",
+      "options": [
+        "Publicly available collections of code and documentation.",
+        "Tools for generating automated code reviews.",
+        "Pre-defined sets of coding style guidelines.",
+        "Private collections of internal code and documentation customized to an organization's needs."
+      ],
+      "correctAnswer": [3],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 149,
+      "text": "How does GitHub Copilot effectively transform the local code context into a high-quality suggestion, and what role does the proxy service play in this process?",
+      "options": [
+        "Copilot directly streams the entire file contents to the LLM without any intermediate processing. The LLM generates suggestions without applying any filters, and the suggestion is immediately displayed.",
+        "The IDE’s context (including code snippets and inline comments) is used to build a prompt. The prompt is sent to a proxy service that filters sensitive data and applies policy rules before forwarding it to the LLM. After the LLM produces its response, the proxy performs post-processing—such as identifying and comparing matching code fragments—to ensure the output adheres to licensing and quality standards.",
+        "The IDE gathers context by reading user history and usage patterns over several days. This historical context is used to build a prompt that is stored for future suggestions without real-time filtering.",
+        "The IDE sends only the user's query (without code context) to the LLM. The LLM returns a generic suggestion that is then combined with a local code search to form the final output."
+      ],
+      "correctAnswer": [1],
+      "domain": "GitHub Copilot Certification"
+    },
+    {
+      "id": 150,
+      "text": "Who bears the PRIMARY responsibility for ensuring the 'Accountability' principle is upheld when using Copilot?",
+      "options": [
+        "The open-source community that contributes to Copilot's training data",
+        "The companies (GitHub, OpenAI, Microsoft) behind Copilot",
+        "The developers who create Copilot",
+        "The developers who utilize Copilot in their projects"
+      ],
+      "correctAnswer": [3],
+      "domain": "GitHub Copilot Certification"
+    },
+      {
+        "id": 151,
+        "text": "If GitHub Copilot suggests code that introduces a security vulnerability, which principle is MOST directly violated?",
+        "options": [
+          "Transparency",
+          "Inclusiveness",
+          "Reliability and safety",
+          "Fairness"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 152,
+        "text": "What happens to your prompt before it reaches the Copilot LLM?",
+        "options": [
+          "It's converted into YAML",
+          "It's sent directly to OpenAI or Azure",
+          "It is filtered via GitHub’s proxy service for sensitive content and prompt safety"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 153,
+        "text": "How can AI, such as GitHub Copilot, most effectively mitigate the productivity challenges associated with context switching for developers?",
+        "options": [
+          "By completely eliminating the need for developers to work on multiple tasks concurrently.",
+          "By providing intelligent code completion and suggestions that are highly relevant to the specific task the developer is currently focused on, even after interruptions.",
+          "By automatically prioritizing tasks based on urgency and developer skill sets.",
+          "By generating detailed summaries of previously worked-on tasks to quickly re-familiarize the developer"
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 154,
+        "text": "Which of the following actions can help improve the performance and relevance of GitHub Copilot Chat suggestions?",
+        "options": [
+          "Turning off Git version control temporarily",
+          "Removing comments from all files",
+          "Keeping the file you're working on small and focused",
+          "Disabling syntax highlighting in the IDE"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 155,
+        "text": "Which of the following is an example of an organization-wide policy that an admin can enforce in Copilot Business?",
+        "options": [
+          "Setting Copilot to auto-commit changes",
+          "Requiring that all Copilot suggestions must use docstrings",
+          "Enforcing public code matching filters for all users",
+          "Limiting the number of characters Copilot can suggest"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 156,
+        "text": "What does the .copilotrc.yaml configuration file allow developers to do?",
+        "options": [
+          "Specify GitHub Actions for Copilot",
+          "Set auto-commit options for suggestions",
+          "Control suggestion behavior by language, scope, or trigger phrases",
+          "Automatically disable all AI suggestions"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 157,
+        "text": "Which editor does GitHub Copilot NOT officially support?",
+        "options": [
+          "Visual Studio Code",
+          "Neovim",
+          "IntelliJ IDEA",
+          "None of the Above"
+        ],
+        "correctAnswer": [3],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 158,
+        "text": "If Copilot suggestions are not showing for a specific file, what is a valid troubleshooting step?",
+        "options": [
+          "Restart the computer",
+          "Verify file type is supported and suggestions are not disabled in .copilotrc.yaml",
+          "Reinstall the OS",
+          "Enable 'Auto Save' in your editor"
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 159,
+        "text": "How does GitHub Copilot leverage the capabilities of LLMs?",
+        "options": [
+          "By using LLMs to translate code between different programming languages.",
+          "By using LLMs to predict the next character in the code.",
+          "By using LLMs to analyze code for potential bugs and vulnerabilities.",
+          "By using LLMs to generate complete code snippets based on natural language prompts."
+        ],
+        "correctAnswer": [3],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 160,
+        "text": "How does GitHub Copilot Chat contribute to improving the security of your code?",
+        "options": [
+          "By providing suggestions for secure coding practices, such as input validation and encryption techniques.",
+          "By replacing the need for security audits and penetration testing.",
+          "By automatically fixing all existing vulnerabilities without any developer intervention.",
+          "By generating complex security algorithms that are impossible to break or exploit."
+        ],
+        "correctAnswer": [0],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 161,
+        "text": "How does Copilot handle semantic information from excluded files when providing suggestions in non-excluded files?",
+        "options": [
+          "It may use semantic information if provided by the IDE in a non-excluded file.",
+          "It uses semantic information from excluded files only if they are explicitly referenced in a non-excluded file.",
+          "It gives a warning message before using semantic information from excluded files.",
+          "It completely ignores all information from excluded files."
+        ],
+        "correctAnswer": [0],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 162,
+        "text": "Which of the following is a recommended best practice for using Copilot Chat?",
+        "options": [
+          "Always trust outputs from Copilot Chat",
+          "Use ambiguous prompts to test creativity",
+          "Provide clear, specific prompts and validate output",
+          "Only use it for Python scripts"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 163,
+        "text": "How can a development team utilize the Productivity API related to GitHub Copilot to understand its impact on coding?",
+        "options": [
+          "By directly integrating Copilot's code generation capabilities into their internal development tools.",
+          "By accessing metrics and insights into how Copilot is being used within their organization, such as code acceptance rates and time savings.",
+          "By customizing Copilot's behaviour and coding style preferences for their team.",
+          "By using the API to automatically resolve merge conflicts in pull requests."
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 164,
+        "text": "What is the primary function of the /tests slash command in Copilot Chat?",
+        "options": [
+          "To fix errors in the active file",
+          "To generate tests for existing code",
+          "To set up a new testing environment",
+          "To ask questions about Visual Studio Code"
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 165,
+        "text": "What is the role of the 'feedback loop' in the context of GitHub Copilot's data handling?",
+        "options": [
+          "To automatically update the underlying language model with new code patterns and best practices.",
+          "To provide users with personalized recommendations for improving their code.",
+          "To allow users to report bugs or issues they encounter while using Copilot.",
+          "To collect data on user interactions with code suggestions, such as accepting, rejecting, or modifying them."
+        ],
+        "correctAnswer": [3],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 166,
+        "text": "When tailoring AI chat responses, what accurately describes key characteristics or the application scope of repository custom instructions versus prompt files? (Select two correct answers)",
+        "options": [
+          "Repository custom instructions influence responses for any conversation within the context of that repository.",
+          "Prompt files are designed to save common prompt instructions and relevant context for reuse.",
+          "Repo custom instructions are saved as Markdown files and apply to specific chat interactions.",
+          "Prompt files dictate general code style and formatting conventions across the entire codebase."
+        ],
+        "correctAnswer": [0, 1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 167,
+        "text": "Beyond initial generation, how can one use GitHub Copilot Chat to refine and expand the scope of an existing test suite for better coverage? (Select two)",
+        "options": [
+          "Supplying manual descriptions for new test cases to it.",
+          "Prompting Copilot Chat for any missed test scenarios.",
+          "Analyzing the runtime speed of the generated tests.",
+          "Comparing generated tests to widely accepted standards."
+        ],
+        "correctAnswer": [0, 1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 168,
+        "text": "A development team is encountering inconsistent and often irrelevant code suggestions from GitHub Copilot. Which of the following prompt engineering principles is MOST likely being violated?",
+        "options": [
+          "Leveraging zero-shot prompting techniques for simple tasks.",
+          "Providing sufficient context and clarity in the prompt.",
+          "Utilizing few-shot prompting with diverse examples.",
+          "Iteratively refining prompts based on Copilot's initial suggestions."
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 169,
+        "text": "Which of the following is a key benefit of using GitHub Copilot Chat on GitHub.com compared to IDE-only chat experiences?",
+        "options": [
+          "It provides GPU performance metrics for each suggestion",
+          "It allows in-context code understanding directly in pull requests and repositories",
+          "It enables branch locking and commit-level telemetry",
+          "It syncs GitHub Actions secrets with Copilot models"
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 170,
+        "text": "What type of prompt is specifically checked for manipulation attempts to reveal model generation details?",
+        "options": [
+          "Prompts containing hate speech",
+          "Prompts containing personal data",
+          "Prompts attempting to trick the model into revealing how its code works",
+          "Prompts containing vulgar language"
+        ],
+        "correctAnswer": [2],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 171,
+        "text": "In the context of GitHub Copilot, what does 'FIM' stand for?",
+        "options": [
+          "Function Implementation Model",
+          "Fill-in-the-Middle",
+          "File Integrity Manager",
+          "Frequent Itemset Mining"
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      },
+      {
+        "id": 172,
+        "text": "How does the 'Fill-in-the-Middle' (FIM) technique improve GitHub Copilot's code suggestions?",
+        "options": [
+          "By allowing the model to access and utilize the entire codebase of the user's repository",
+          "By providing the model with a broader context of the code, including both the preceding and following code blocks",
+          "By filtering out any potentially harmful or offensive language from the user's code",
+          "By enabling the model to learn from the user's previous interactions and personalize code suggestions"
+        ],
+        "correctAnswer": [1],
+        "domain": "GitHub Copilot Certification"
+      }
 ]
