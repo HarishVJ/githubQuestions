@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { loadQuestionsFromFiles } from './services/questionService';
-import { Box, Container, Typography, Button, Radio, RadioGroup, FormControlLabel, Paper, LinearProgress, Checkbox, FormGroup } from '@mui/material';
+import { Box, Container, Typography, Button, Radio, RadioGroup, FormControlLabel, LinearProgress, Checkbox, FormGroup } from '@mui/material';
 import type { Question, AssessmentState } from './types/types';
 import './App.css';
 
@@ -66,8 +66,8 @@ function App() {
 
     const correctAnswer = state.questions[state.currentQuestionIndex].correctAnswer;
     const isCorrect = Array.isArray(correctAnswer)
-      ? correctAnswer.every(answer => selectedAnswers.includes(answer)) && 
-        selectedAnswers.every(answer => correctAnswer.includes(answer))
+      ? (correctAnswer as number[]).every(answer => selectedAnswers.includes(answer)) && 
+        selectedAnswers.every(answer => (correctAnswer as number[]).includes(answer))
       : selectedAnswers[0] === correctAnswer;
     const newScore = isCorrect ? state.score + 1 : state.score;
 
@@ -107,8 +107,8 @@ function App() {
   const progress = ((state.currentQuestionIndex + 1) / state.totalQuestions) * 100;
   const isAnswerCorrect = selectedAnswers.length > 0 && currentQuestion && (
     Array.isArray(currentQuestion.correctAnswer)
-      ? currentQuestion.correctAnswer.every(answer => selectedAnswers.includes(answer)) && 
-        selectedAnswers.every(answer => currentQuestion.correctAnswer.includes(answer))
+      ? (currentQuestion.correctAnswer as number[]).every(answer => selectedAnswers.includes(answer)) && 
+        selectedAnswers.every(answer => (currentQuestion.correctAnswer as number[]).includes(answer))
       : selectedAnswers[0] === currentQuestion.correctAnswer
   );
 
