@@ -63,7 +63,7 @@ function parseTextContent(content: string): RawQuestion[] {
 
 export async function loadQuestionsFromFiles(): Promise<Question[]> {
   try {
-    const response = await fetch('/api/questions');
+    const response = await fetch('/.netlify/functions/questions');
     if (!response.ok) {
       throw new Error(`Failed to load questions: ${response.statusText}`);
     }

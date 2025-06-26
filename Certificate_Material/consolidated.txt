@@ -1,0 +1,1121 @@
+### Domain 1: Responsible AI (7%)
+1. **What is Responsible AI?**  
+   a) AI that is always accurate  
+   b) AI that adheres to ethical guidelines and principles  
+   c) AI that is developed by large companies  
+   d) AI that is open-source  
+   **Answer: b**
+2. **Which of the following is a key principle of Responsible AI?**  
+   a) Profit maximization  
+   b) Transparency  
+   c) Speed of development  
+   d) Proprietary algorithms  
+   **Answer: b**
+3. **Why is fairness important in AI?**  
+   a) To ensure AI systems are profitable  
+   b) To prevent bias and discrimination  
+   c) To increase the speed of AI development  
+   d) To reduce the cost of AI systems  
+   **Answer: b**
+4. **What does AI transparency involve?**  
+   a) Making AI systems open-source  
+   b) Explaining how AI decisions are made  
+   c) Ensuring AI systems are fast  
+   d) Keeping AI algorithms secret  
+   **Answer: b**
+5. **Which organization provides guidelines for Responsible AI?**  
+   a) World Health Organization  
+   b) OpenAI  
+   c) IEEE  
+   d) NASA  
+   **Answer: c** (Note: IEEE is known for ethical AI guidelines)
+6. **What is the goal of AI accountability?**  
+   a) To make AI systems faster  
+   b) To ensure there is a clear responsibility for AI outcomes  
+   c) To reduce the cost of AI systems  
+   d) To make AI systems open-source  
+   **Answer: b**
+7. **Which of the following is a risk of not following Responsible AI principles?**  
+   a) Increased profitability  
+   b) Bias and discrimination  
+   c) Faster development  
+   d) Proprietary algorithms  
+   **Answer: b**
+8. **What is AI ethics concerned with?**  
+   a) The speed of AI development  
+   b) The moral implications of AI  
+   c) The profitability of AI systems  
+   d) The proprietary nature of AI algorithms  
+   **Answer: b**
+9. **Why is inclusivity important in AI development?**  
+   a) To ensure AI systems are profitable  
+   b) To prevent bias and ensure diverse perspectives  
+   c) To increase the speed of AI development  
+   d) To keep AI algorithms secret  
+   **Answer: b**
+10. **What is the role of human oversight in Responsible AI?**  
+    a) To make AI systems faster  
+    b) To ensure AI systems are used ethically and responsibly  
+    c) To reduce the cost of AI systems  
+    d) To make AI systems open-source  
+    **Answer: b**
+### Domain 2: GitHub Copilot Plans and Features (31%)
+11. **What is GitHub Copilot?**  
+    a) A project management tool  
+    b) An AI-powered code completion tool  
+    c) A version control system  
+    d) A bug tracking system  
+    **Answer: b**
+12. **Which AI model powers GitHub Copilot?**  
+    a) GPT-3  
+    b) BERT  
+    c) T5  
+    d) GPT-4  
+    **Answer: a** (Note: Initially GPT-3, but now may be updated. However, the exam might expect GPT-3 as per earlier documentation)
+13. **What programming languages does GitHub Copilot support?**  
+    a) Only Python  
+    b) Only JavaScript  
+    c) Multiple programming languages  
+    d) Only Java  
+    **Answer: c**
+14. **How does GitHub Copilot provide code suggestions?**  
+    a) By analyzing the entire internet  
+    b) By using a large language model trained on public code  
+    c) By using a fixed set of code snippets  
+    d) By using a rule-based system  
+    **Answer: b**
+15. **Can GitHub Copilot be used for writing documentation?**  
+    a) No, it only writes code  
+    b) Yes, it can help write documentation  
+    c) Only for Python documentation  
+    d) Only for JavaScript documentation  
+    **Answer: b**
+16. **What is the main benefit of using GitHub Copilot?**  
+    a) It makes code reviews unnecessary  
+    b) It helps developers write code faster  
+    c) It replaces the need for human developers  
+    d) It makes projects open-source  
+    **Answer: b**
+17. **How does GitHub Copilot handle code context?**  
+    a) It ignores the context  
+    b) It uses the context of the current file and function  
+    c) It only uses the context of the current line  
+    d) It uses the context of the entire project  
+    **Answer: b** (Note: It uses the context of the current file and nearby code)
+18. **What is the GitHub Copilot Labs feature?**  
+    a) A feature for managing repositories  
+    b) A feature for experimenting with new AI models  
+    c) A feature for testing code  
+    d) A feature for managing issues  
+    **Answer: b**
+19. **Can GitHub Copilot be used in Visual Studio Code?**  
+    a) No, it only works in GitHub  
+    b) Yes, it has an extension for Visual Studio Code  
+    c) Only in the web version of Visual Studio Code  
+    d) Only in the desktop version of Visual Studio Code  
+    **Answer: b**
+20. **What is the GitHub Copilot for Business plan?**  
+    a) A free plan for individual developers  
+    b) A paid plan for teams and organizations  
+    c) A plan for open-source projects  
+    d) A plan for educational institutions  
+    **Answer: b**
+### Domain 3: How GitHub Copilot Works and Handles Data (15%)
+21. **How does GitHub Copilot generate code suggestions?**  
+    a) By using a rule-based system  
+    b) By using a large language model trained on public code  
+    c) By analyzing the entire internet  
+    d) By using a fixed set of code snippets  
+    **Answer: b**
+22. **What type of data does GitHub Copilot use for training?**  
+    a) Proprietary code  
+    b) Publicly available code  
+    c) Only Python code  
+    d) Only JavaScript code  
+    **Answer: b**
+23. **How does GitHub Copilot ensure the privacy of user data?**  
+    a) By storing all data locally  
+    b) By not storing any user data  
+    c) By anonymizing and aggregating data  
+    d) By using encryption  
+    **Answer: c**
+24. **What is the role of the OpenAI Codex model in GitHub Copilot?**  
+    a) It manages repositories  
+    b) It generates code suggestions  
+    c) It tracks issues  
+    d) It handles pull requests  
+    **Answer: b**
+25. **How does GitHub Copilot handle sensitive information in code?**  
+    a) It ignores sensitive information  
+    b) It flags and removes sensitive information  
+    c) It stores sensitive information securely  
+    d) It encrypts sensitive information  
+    **Answer: a** (Note: It doesn't specifically handle sensitive info, so it might ignore)
+26. **Can GitHub Copilot access private repositories?**  
+    a) No, it only accesses public repositories  
+    b) Yes, with user permission  
+    c) Only for open-source projects  
+    d) Only for educational institutions  
+    **Answer: b** (Note: With user consent, it can use private repos for context)
+27. **What is the purpose of the telemetry data collected by GitHub Copilot?**  
+    a) To improve the AI model  
+    b) To track user activity  
+    c) To store user code  
+    d) To manage repositories  
+    **Answer: a**
+28. **How does GitHub Copilot handle user feedback?**  
+    a) It ignores user feedback  
+    b) It uses feedback to improve suggestions  
+    c) It stores feedback securely  
+    d) It shares feedback with other users  
+    **Answer: b**
+29. **What is the main source of training data for GitHub Copilot?**  
+    a) Proprietary code  
+    b) Publicly available code  
+    c) Only Python code  
+    d) Only JavaScript code  
+    **Answer: b**
+30. **How does GitHub Copilot ensure the quality of code suggestions?**  
+    a) By using a rule-based system  
+    b) By using a large language model trained on high-quality code  
+    c) By analyzing the entire internet  
+    d) By using a fixed set of code snippets  
+    **Answer: b**
+### Domain 4: Prompt Crafting and Prompt Engineering (9%)
+31. **What is prompt engineering?**  
+    a) The process of writing code  
+    b) The process of designing and refining prompts for AI models  
+    c) The process of managing repositories  
+    d) The process of testing code  
+    **Answer: b**
+32. **Why is prompt crafting important for GitHub Copilot?**  
+    a) To ensure code is written faster  
+    b) To improve the accuracy and relevance of code suggestions  
+    c) To reduce the cost of AI systems  
+    d) To make projects open-source  
+    **Answer: b**
+33. **What is a good practice for crafting effective prompts?**  
+    a) Using vague and general prompts  
+    b) Using clear and specific prompts  
+    c) Using long and complex prompts  
+    d) Using short and ambiguous prompts  
+    **Answer: b**
+34. **How can you refine a prompt to get better code suggestions?**  
+    a) By making the prompt more general  
+    b) By making the prompt more specific  
+    c) By making the prompt longer  
+    d) By making the prompt shorter  
+    **Answer: b**
+35. **What is the role of context in prompt engineering?**  
+    a) To ignore the context  
+    b) To use the context to generate relevant suggestions  
+    c) To store the context securely  
+    d) To share the context with other users  
+    **Answer: b**
+36. **How can you provide context to GitHub Copilot in a prompt?**  
+    a) By writing a detailed comment  
+    b) By writing a vague comment  
+    c) By writing a long comment  
+    d) By writing a short comment  
+    **Answer: a**
+37. **What is a common mistake in prompt crafting?**  
+    a) Using clear and specific prompts  
+    b) Using vague and general prompts  
+    c) Using short and ambiguous prompts  
+    d) Using long and complex prompts  
+    **Answer: b**
+38. **How can you test the effectiveness of a prompt?**  
+    a) By using the prompt in different contexts  
+    b) By using the prompt in the same context  
+    c) By using the prompt only once  
+    d) By not using the prompt at all  
+    **Answer: a**
+39. **What is the benefit of using examples in prompts?**  
+    a) To make the prompt more general  
+    b) To provide clear guidance to the AI model  
+    c) To make the prompt longer  
+    d) To make the prompt shorter  
+    **Answer: b**
+40. **How can you improve a prompt that is not generating good suggestions?**  
+    a) By making the prompt more general  
+    b) By making the prompt more specific  
+    c) By making the prompt longer  
+    d) By making the prompt shorter  
+    **Answer: b**
+### Domain 5: Developer Use Cases for AI (14%)
+41. **What is a common use case for AI in software development?**  
+    a) Managing repositories  
+    b) Code completion and suggestions  
+    c) Tracking issues  
+    d) Handling pull requests  
+    **Answer: b**
+42. **How can AI help with code reviews?**  
+    a) By replacing human reviewers  
+    b) By providing automated code analysis and suggestions  
+    c) By managing repositories  
+    d) By tracking issues  
+    **Answer: b**
+43. **What is the benefit of using AI for bug detection?**  
+    a) To reduce the cost of development  
+    b) To identify and fix bugs faster  
+    c) To make projects open-source  
+    d) To manage repositories  
+    **Answer: b**
+44. **How can AI assist with documentation?**  
+    a) By writing code  
+    b) By generating and maintaining documentation  
+    c) By managing repositories  
+    d) By tracking issues  
+    **Answer: b**
+45. **What is a use case for AI in project management?**  
+    a) Code completion and suggestions  
+    b) Automated task assignment and tracking  
+    c) Handling pull requests  
+    d) Writing code  
+    **Answer: b**
+46. **How can AI help with testing?**  
+    a) By writing code  
+    b) By generating test cases and automating tests  
+    c) By managing repositories  
+    d) By tracking issues  
+    **Answer: b**
+47. **What is the role of AI in continuous integration and deployment (CI/CD)?**  
+    a) Writing code  
+    b) Automating build and deployment processes  
+    c) Managing repositories  
+    d) Tracking issues  
+    **Answer: b**
+48. **How can AI improve code quality?**  
+    a) By writing code  
+    b) By providing automated code analysis and suggestions  
+    c) By managing repositories  
+    d) By tracking issues  
+    **Answer: b**
+49. **What is a use case for AI in security?**  
+    a) Writing code  
+    b) Identifying and mitigating security vulnerabilities  
+    c) Managing repositories  
+    d) Tracking issues  
+    **Answer: b**
+50. **How can AI assist with code refactoring?**  
+    a) By writing code  
+    b) By providing suggestions for improving code structure and readability  
+    c) By managing repositories  
+    d) By tracking issues  
+    **Answer: b**
+### Domain 6: Testing with GitHub Copilot (9%)
+51. **How can GitHub Copilot assist with writing test cases?**  
+    a) By managing repositories  
+    b) By generating test cases based on code context  
+    c) By tracking issues  
+    d) By handling pull requests  
+    **Answer: b**
+52. **What is the benefit of using GitHub Copilot for testing?**  
+    a) To reduce the cost of development  
+    b) To generate test cases faster and more accurately  
+    c) To make projects open-source  
+    d) To manage repositories  
+    **Answer: b**
+53. **How does GitHub Copilot handle test data?**  
+    a) It ignores test data  
+    b) It generates test data based on code context  
+    c) It stores test data securely  
+    d) It shares test data with other users  
+    **Answer: b**
+54. **Can GitHub Copilot be used for unit testing?**  
+    a) No, it only writes code  
+    b) Yes, it can generate unit tests  
+    c) Only for Python unit tests  
+    d) Only for JavaScript unit tests  
+    **Answer: b**
+55. **What is the role of GitHub Copilot in integration testing?**  
+    a) It manages repositories  
+    b) It generates integration tests based on code context  
+    c) It tracks issues  
+    d) It handles pull requests  
+    **Answer: b**
+56. **How can GitHub Copilot help with test automation?**  
+    a) By writing code  
+    b) By generating and maintaining automated tests  
+    c) By managing repositories  
+    d) By tracking issues  
+    **Answer: b**
+57. **What is a common use case for GitHub Copilot in testing?**  
+    a) Writing code  
+    b) Generating test cases and test data  
+    c) Managing repositories  
+    d) Tracking issues  
+    **Answer: b**
+58. **How does GitHub Copilot ensure the quality of generated tests?**  
+    a) By using a rule-based system  
+    b) By using a large language model trained on high-quality code  
+    c) By analyzing the entire internet  
+    d) By using a fixed set of code snippets  
+    **Answer: b**
+59. **Can GitHub Copilot be used for end-to-end testing?**  
+    a) No, it only writes code  
+    b) Yes, it can generate end-to-end tests  
+    c) Only for Python end-to-end tests  
+    d) Only for JavaScript end-to-end tests  
+    **Answer: b**
+60. **What is the benefit of using GitHub Copilot for regression testing?**  
+    a) To reduce the cost of development  
+    b) To generate regression tests faster and more accurately  
+    c) To make projects open-source  
+    d) To manage repositories  
+    **Answer: b**
+### Domain 7: Privacy Fundamentals and Context Exclusions (15%)
+61. **What is the importance of privacy in AI?**  
+    a) To increase the speed of AI development  
+    b) To protect user data and ensure ethical use of AI  
+    c) To reduce the cost of AI systems  
+    d) To make AI systems open-source  
+    **Answer: b**
+62. **How does GitHub Copilot handle user data?**  
+    a) By storing all data locally  
+    b) By anonymizing and aggregating data  
+    c) By not storing any user data  
+    d) By using encryption  
+    **Answer: b**
+63. **What is context exclusion in GitHub Copilot?**  
+    a) Ignoring the context of the current file  
+    b) Excluding sensitive information from code suggestions  
+    c) Storing the context securely  
+    d) Sharing the context with other users  
+    **Answer: b**
+64. **Why is it important to exclude sensitive information from code suggestions?**  
+    a) To increase the speed of AI development  
+    b) To protect user privacy and prevent data leaks  
+    c) To reduce the cost of AI systems  
+    d) To make AI systems open-source  
+    **Answer: b**
+65. **How can developers ensure their code does not contain sensitive information?**  
+    a) By using vague and general prompts  
+    b) By reviewing and sanitizing their code  
+    c) By making their code open-source  
+    d) By using long and complex prompts  
+    **Answer: b**
+66. **What is the role of encryption in protecting user data?**  
+    a) To increase the speed of AI development  
+    b) To secure data and prevent unauthorized access  
+    c) To reduce the cost of AI systems  
+    d) To make AI systems open-source  
+    **Answer: b**
+67. **How does GitHub Copilot ensure the privacy of code suggestions?**  
+    a) By storing all suggestions locally  
+    b) By anonymizing and aggregating data  
+    c) By not storing any suggestions  
+    d) By using encryption  
+    **Answer: b**
+### Additional Questions from the Document
+68. **Select a strategy to increase the performance of GitHub Copilot Chat.**  
+    a) Use a single GitHub Copilot Chat query to find resolutions for the collection of technical requirements  
+    b) Limit the number of concurrent users accessing GitHub Copilot Chat  
+    c) Apply prompt engineering techniques to be more specific  
+    d) Optimize the usage of memory-intensive operations within generated  
+    **Answer: c**
+69. **What caution should developers exercise when using GitHub Copilot for assistance with mathematical computation?**  
+    a) GitHub Copilot's ability to execute and verify mathematical results in real-time.  
+    b) GitHub Copilot's reliance on pattern-based responses without verifying computation accuracy.  
+    c) GitHub Copilot's automatic update of outdated mathematical formulas to modern standards.  
+    d) GitHub Copilot's capability to optimize complex mathematical algorithms beyond manual coding  
+    **Answer: b**
+70. **What do you check when GitHub Copilot content exclusions are not working? (Each correct answer presents part of the solution. Choose two.)**  
+    a) If the user is in an organization that has content exclusions configured  
+    b) If the content exclusion settings changed in the last 30 minutes or before that.  
+    c) If GitHub Copilot can connect to the server selected in your user settings.  
+    d) If the user is part of the content exclusion team that limits the use of content exclusions.  
+    **Answer: a, b**
+71. **A social media manager wants to use AI to filter content. How can they promote transparency in the platform's AI operations?**  
+    a) By providing clear explanations about the types of content the AI is designed to filter and how it arrives at its conclusion.  
+    b) By focusing on user satisfaction with the content filtering.  
+    c) By regularly updating the AI filtering algorithm.  
+    d) By relying on a well-regarded AI development company.  
+    **Answer: a**
+72. **What role does the pre-processing of user input play in the data flow of GitHub Copilot Chat?**  
+    a) It enriches the input prompt with additional context before passing it to the language model.  
+    b) It directly generates a response based on the user's input prompt.  
+    c) It filters out irrelevant information from the user's input prompt.  
+    d) It formats the output response before presenting it to the user  
+    **Answer: a**
+73. **Which Copilot Enterprise features are available in all commercially supported IDEs?**  
+    a) Inline suggestions  
+    b) Chat  
+    c) Knowledge bases  
+    d) Pull request summaries  
+    **Answer: a**
+74. **How does GitHub Copilot typically handle code suggestions that involve deprecated features or syntax of programming languages?**  
+    a) GitHub Copilot always filters out deprecated elements to promote the use of current standards.  
+    b) GitHub Copilot may suggest deprecated syntax or features if they are present in its training data.  
+    c) GitHub Copilot automatically updates deprecated features in its suggestions to the latest version.  
+    d) GitHub Copilot rejects all prompts involving deprecated features to avoid compilation errors  
+    **Answer: b**
+75. **What is used by GitHub Copilot in the IDE to determine the prompt context?**  
+    a) All the code in the current repository and any git submodules.  
+    b) All the code visible in the current IDE.  
+    c) The open tabs in the IDE and the current folder of the terminal.  
+    d) Information from the IDE like open tabs, cursor location, selected code.  
+    **Answer: d**
+76. **Which of the following are true about code suggestions? (Each correct answer presents part of the solution. Choose two.)**  
+    a) Alternative code suggestions can be shown in a new tab  
+    b) You can use keyboard shortcuts to accept the next word in a suggestion  
+    c) Code suggestions will always compile or run without modifications  
+    d) Code suggestions are limited to single-line suggestions  
+    **Answer: a, b**
+77. **What types of content can GitHub Copilot Knowledge Base answer questions about? (Each correct answer presents part of the solution. Choose three.)**  
+    a) code snippets  
+    b) screenshots  
+    c) documentation  
+    d) design patterns  
+    e) compiled binaries  
+    **Answer: a, c, d**
+78. **What reasons could apply if code suggestions are not working in your editor? (Select three.)**  
+    a) You do not have an active internet connection  
+    b) Your programming language is not supported  
+    c) Your content exclusion is active and blocks the use of GitHub Copilot  
+    d) You do not have a valid GitHub Copilot license  
+    e) You are working in files included in your .gitignore  
+    **Answer: a, b, d**
+79. **What GitHub Copilot configuration needs to be enabled to protect against IP infringements?**  
+    a) Allowing public code matches  
+    b) Blocking public code matches  
+    c) Allowing license check configuration  
+    d) Blocking license check configuration  
+    **Answer: b**
+80. **How does GitHub Copilot identify matching code and ensure that public code is appropriately handled or blocked? (Each correct answer presents part of the solution. Choose two.)**  
+    a) Filtering out suggestions that match code from public repositories  
+    b) Using machine learning models trained only on private repositories  
+    c) Implementing safeguards to detect and avoid suggesting verbatim snippets from public code  
+    d) Reviewing and storing user-specific private repository data for future suggestions  
+    **Answer: a, c**
+81. **When using an IDE with a supported GitHub Copilot plug-in, which Chat features can be accessed from within the IDE? (Each correct answer presents part of the solution. Choose two.)**  
+    a) Generate unit tests  
+    b) Explain code and suggest improvements  
+    c) Plan coding tasks  
+    d) Find out about releases and commits  
+    **Answer: a, b**
+82. **What are the potential limitations of GitHub Copilot Chat? (Each correct answer presents part of the solution. Choose two.)**  
+    a) Limited training data  
+    b) Ability to handle complex code structures  
+    c) No biases in code suggestions  
+    d) Extensive support for all programming languages  
+    **Answer: a, b**
+83. **What is a likely effect of GitHub Copilot being trained on commonly used code patterns?**  
+    a) Suggest homogeneous solutions if provided a diverse data set.  
+    b) Suggest innovative coding solutions that are not yet popular.  
+    c) Suggest code snippets that reflect the most common practices in the training data.  
+    d) Suggest completely novel projects, while reducing time on a project.  
+    **Answer: c**
+84. **If you are working on open-source projects, GitHub Copilot Individual can be paid:**  
+    a) Based on the payment method in your user profile  
+    b) Through an invoice or a credit card  
+    c) Through an Azure Subscription  
+    d) N/A - Copilot Individual is a free service for all open-source projects  
+    **Answer: d**
+85. **A team is using GitHub Copilot Individual in their daily development activities. They need to exclude specific files from being used to inform code completion suggestions.**  
+    a) Upgrade to Copilot Business  
+    b) Have a repo administrator configure content exclusions  
+    c) Have an organization owner configure content exclusions  
+    d) Use the #file Chat variable to exclude the files  
+    e) Add a .gitignore file to the repo  
+    **Answer: a**
+86. **What is the best way to share feedback about GitHub Copilot Chat when using it on GitHub Mobile?**  
+    a) The Settings menu in the GitHub Mobile app.  
+    b) The feedback section on the GitHub website.  
+    c) Use the emojis in the Copilot Chat interface.  
+    d) Tweeting at GitHub’s official X (previously known as Twitter) account.  
+    **Answer: a**
+87. **What are the additional checks that need to pass before the GitHub Copilot responses are submitted to the user? (Each correct answer presents part of the solution. Choose two.)**  
+    a) Code quality  
+    b) Performance benchmarking  
+    c) Suggestions matching public code (optional based on settings)  
+    d) Compatibility with user-specific settings  
+    **Answer: c, d**
+88. **How can GitHub Copilot assist in maintaining consistency across your tests?**  
+    a) By identifying a pattern in the way you write tests and suggesting similar patterns for future tests.  
+    b) By automatically fixing all tests in the code based on the context.  
+    c) By writing the implementation code for the function based on context.  
+    d) By providing documentation references based on industry best practices.  
+    **Answer: a**
+89. **When crafting prompts for GitHub Copilot, what is a recommended strategy to enhance the relevance of the generated code?**  
+    a) Write the prompt in natural language without any programming language.  
+    b) Provide examples of expected input and output within the prompt.  
+    c) Keep the prompt as short as possible, using single words or brief phrases.  
+    d) Avoid mentioning the programming language to allow for more flexible suggestions.  
+    **Answer: b**
+90. **What kind of insights can the GitHub Copilot usage metrics API provide to help evaluate the effectiveness of GitHub Copilot? (Each correct answer presents part of the solution. Choose two.)**  
+    a) The API can generate detailed reports on code quality improvements made by GitHub Copilot.  
+    b) The API can track the number of code suggestions accepted and used in the organization.  
+    c) The API can refactor your code to improve productivity.  
+    d) The API can provide feedback on coding style and standards compliance.  
+    e) The API can provide Copilot Chat specific suggestions acceptance metrics.  
+    **Answer: b, e**
+91. **How do you generate code suggestions with GitHub Copilot in the CLI?**  
+    a) Write code comments → Press the suggestion shortcut → Select the best suggestion from the list.  
+    b) Use gh copilot suggest → Write the command you want → Select the best suggestion from the list.  
+    c) Type out the code snippet → Use the copilot refine command to enhance it → Review the suggested command.  
+    d) Describe the project’s architecture → Use the copilot generate command → Accept the generated suggestion.  
+    **Answer: b**
+92. **Why is it important to ensure the security of the code used in Generative AI (Gen AI) tools?**  
+    a) Ensuring code security maintains the integrity of the AI system.  
+    b) Ensuring code security prevents unauthorized access and potential data breaches.  
+    c) Ensuring code security supports the development of more advanced AI features.  
+    d) Ensuring code security enables the AI system to handle larger datasets effectively.  
+    **Answer: b**
+93. **Which GitHub Copilot pricing plans include features that exclude your GitHub Copilot data like usage, prompts, and suggestions from default training GitHub Copilot? (Choose two)**  
+    a) GitHub Copilot Individual  
+    b) GitHub Copilot Business  
+    c) GitHub Copilot Enterprise  
+    d) GitHub Copilot Codespace  
+    **Answer: b, c**
+94. **When using GitHub Copilot Chat to generate boilerplate code for various test types, how can you guide the AI to follow the testing standards of your company?**  
+    a) By using a specific slash command in the prompt.  
+    b) By using specific prompt examples in your chat request.  
+    c) By using a specific command in the terminal.  
+    d) By using a specific setting in GitHub Copilot’s configuration.  
+    **Answer: b**
+95. **Which of the following does GitHub Copilot’s LLM derive context from when producing a response?**  
+    a) Neighboring or related files within a project  
+    b) Version control system integrated with the IDE  
+    c) Frequency of commits to the repository  
+    d) Syntax highlighting scheme of the code in the IDE  
+    **Answer: a**
+96. **Which of the following steps correctly demonstrates how to establish an organization-wide policy for GitHub Copilot Business to restrict its use to certain repositories?**  
+    a) Create a copilot.policy file in each repository  
+    b) Configure the policies in the organization settings  
+    c) Create a copilot.policy in the .github repository  
+    d) Apply policies through the GitHub Actions configuration  
+    **Answer: b**
+97. **What is zero-shot prompting?**  
+    a) Giving as little context to GitHub Copilot as possible  
+    b) Telling GitHub Copilot, it needs to show only the correct answer  
+    c) Only giving GitHub Copilot a question as a prompt and no examples  
+    d) Giving GitHub Copilot examples of the problem you want to solve  
+    e) Giving GitHub Copilot examples of the algorithm and outcome you want to use  
+    **Answer: c**
+98. **How does GitHub Copilot assist developers in reducing the amount of manual boilerplate code they write?**  
+    a) By refactoring the entire codebase to eliminate boilerplate code without developer input.  
+    b) By predicting future coding requirements and pre-emptively generating boilerplate code.  
+    c) By suggesting code snippets that can be reused across different parts of the project.  
+    d) By engaging in real-time collaboration with multiple developers to write boilerplate code.  
+    **Answer: c**
+99. **What is the primary purpose of organization audit logs in GitHub Copilot Business?**  
+    a) To track the number of lines of code suggested by Copilot  
+    b) To monitor administrator activities and actions within the organization  
+    c) To monitor code conflicts across repositories  
+    d) To assign software licenses within the organization  
+    **Answer: b**
+100. **How can users provide feedback about GitHub Copilot Chat using their IDE?**  
+     a) By emailing the support team directly.  
+     b) Through the "Share Feedback" button in the Copilot Chat panel.  
+     c) By posting on the GitHub forums.  
+     d) By filling out a feedback form on the GitHub website.  
+     **Answer: b**
+101. **How can the insights gained from the metrics API be used to improve the development process in conjunction with GitHub Copilot?**  
+     a) Insights on the types of coding languages where GitHub Copilot is most helpful.  
+     b) Real-time debugging and error resolution statistics.  
+     c) Detailed analysis of GitHub Copilot's suggestions vs. manual coding.  
+     d) Automated generation of complete project documentation.  
+     **Answer: a**
+102. **Which GitHub Copilot plan could an Azure DevOps organization use without requiring a GitHub Enterprise license?**  
+     a) GitHub Copilot Individual  
+     b) GitHub Copilot Enterprise  
+     c) GitHub Copilot for Azure DevOps  
+     d) Copilot Teams  
+     **Answer: c**
+103. **What is a benefit of using custom models in GitHub Copilot?**  
+     a) Responses are faster to produce and appear sooner  
+     b) Responses use practices and patterns in your repositories  
+     c) Responses use the organization's LLM engine  
+     d) Responses are guaranteed to be correct  
+     **Answer: b**
+104. **What is the main purpose of the duplication detection filter in GitHub Copilot?**  
+     a) To encourage the user to follow coding best practices preventing code duplication.  
+     b) To compare user-generated code against a private repository for potential matches.  
+     c) To allow administrators to control which suggestions are visible to developers based on custom criteria.  
+     d) To detect and block suggestions that match public code snippets on GitHub if they contain about 150 characters.  
+     **Answer: d**
+105. **What can be done during AI development to minimize bias?**  
+     a) Focus on accuracy of the data.  
+     b) Collect massive amounts of data for training.  
+     c) Use diverse data, fairness metrics, and human oversight.  
+     d) Improve on the computational efficiency and speed.  
+     **Answer: c**
+106. **Which of the following statements correctly describes how GitHub Copilot Individual uses prompt data? (Each correct answer presents part of the solution. Choose two.)**  
+     a) Prompt data is used to train machine learning models for better code suggestions.  
+     b) Prompt data is used internally by GitHub for improving the search engine.  
+     c) Real-time user input helps generate context-aware code suggestions.  
+     d) Prompt data is stored unencrypted for faster processing.  
+     **Answer: a, c**
+107. **What are the potential limitations of GitHub Copilot in maintaining existing codebases?**  
+     a) GitHub Copilot can refactor and optimize the entire codebase up to 10,000 lines of code.  
+     b) GitHub Copilot might not fully understand the context and dependencies within a large codebase.  
+     c) GitHub Copilot can independently manage and resolve all merge conflicts in version control.  
+     d) GitHub Copilot's suggestions are always aware of the entire codebase.  
+     **Answer: b**
+108. **GitHub Copilot in the Command Line Interface (CLI) can be used to configure the following settings: (Each correct answer presents part of the solution. Choose two.)**  
+     a) The default execution confirmation  
+     b) Usage analytics  
+     c) The default editor  
+     d) GitHub CLI subcommands  
+     **Answer: a, c**
+109. **When using GitHub Copilot Chat to generate unit tests, which slash command would you use?**  
+     a) /generate-tests  
+     b) /tests  
+     c) /create-tests  
+     d) /init-tests  
+     **Answer: b**
+110. **What content can be configured to be excluded with content exclusions? (Each correct answer presents part of the solution. Choose three.)**  
+     a) Lines in files  
+     b) Files  
+     c) Folders  
+     d) Repositories  
+     e) Gists  
+     **Answer: b, c, d**
+111. **Where can you validate if GitHub Copilot is not returning suggestions because of content exclusions?**  
+     a) The GitHub Copilot logs on GitHub.com under your user settings  
+     b) The GitHub Copilot icon in the status bar of the editor will display a message  
+     c) The GitHub Copilot errors panel in your IDE  
+     d) The code suggestions window will display a warning message  
+     **Answer: b**
+112. **Are there any limitations to consider when using GitHub Copilot for code refactoring?**  
+     a) GitHub Copilot always produces bug-free code during refactoring.  
+     b) GitHub Copilot understands the context of your entire project and refactors code accordingly.  
+     c) GitHub Copilot can only be used with a limited set of programming languages.  
+     d) GitHub Copilot may not always produce optimized or best-practice code for refactoring.  
+     **Answer: d**
+113. **Identify the steps involved in the life cycle of a GitHub Copilot code suggestion? (Each correct presents part of the solution. Choose two.)**  
+     a) Processing telemetry data  
+     b) Capturing the user's context  
+     c) Storing user data  
+     d) Retraining the model  
+     e) Generate suggestions  
+     **Answer: b, e**
+114. **Which scenarios can GitHub Copilot Chat be used to increase productivity? (Each correct answer presents part of the solution. Choose two.)**  
+     a) A developer is added to a new project and would like to understand the current software code.  
+     b) A project plan for the team needs to be generated using a project management software.  
+     c) Fast tracking of release management activities to move code to production main branch.  
+     d) Create a documentation file for the newly created code base.  
+     **Answer: a, d**
+115. **What is the impact of the "Fill-In-the-Middle" (FIM) technique on GitHub Copilot's code suggestions?**  
+     a) Allows Copilot to generate suggestions based only on the prefix of the code.  
+     b) Ignores both the prefix and suffix of the code, focusing only on user comments for context.  
+     c) Improves suggestions by considering both the prefix and suffix of the code, filling in the middle part more accurately  
+     d) Restricts Copilot to use only external databases for generating code suggestions.  
+     **Answer: c**
+116. **What are the different ways to give context to GitHub Copilot to get more precise responses? (Each correct answer presents part of the solution. Choose two.)**  
+     a) Engage with chat participants such as @workspace to incorporate collaborative context into the responses.  
+     b) Utilize chat variables like #file and #editors to anchor the conversation within the specific context of the files or editors in use.  
+     c) Utilize to interpret developer’s thoughts and intentions without any code or comments.  
+     d) Access developer’s previous projects and code repositories to understand their coding style without explicit permission.  
+     **Answer: a, b**
+117. **How does GitHub Copilot Chat help to fix security issues in your codebase?**  
+     a) By annotating the given suggestions with known vulnerability patterns.  
+     b) By automatically refactoring the entire codebase to remove vulnerabilities.  
+     c) By enforcing strict coding standards that prevent the introduction of vulnerabilities.  
+     d) By providing detailed reports on the security vulnerabilities present in the codebase.  
+     **Answer: a**
+118. **In what ways can GitHub Copilot contribute to the design phase of the Software Development Life Cycle (SDLC)**  
+     a) GitHub Copilot can independently create a complete software design.  
+     b) GitHub Copilot can suggest design patterns and best practices relevant to the project.  
+     c) GitHub Copilot can generate user interface (UI) prototypes without prompting.  
+     d) GitHub Copilot can manage design team collaboration and version control.  
+     **Answer: b**
+119. **Which Microsoft ethical AI principle is aimed at ensuring AI systems treat all people equally?**  
+     a) Privacy and Security  
+     b) Fairness  
+     c) Reliability and Safety  
+     d) Inclusiveness  
+     **Answer: b**
+120. **How does GitHub Copilot assist developers in minimizing context switching?**  
+     a) GitHub Copilot can automatically handle project management tasks.  
+     b) GitHub Copilot allows developers to stay in their IDE.  
+     c) GitHub Copilot can completely replace the need for human collaboration.  
+     d) GitHub Copilot can predict and prevent bugs before they occur.  
+     **Answer: b**
+121. **What is few-shot prompting?**  
+     a) Telling GitHub Copilot to try multiple times to answer the prompt  
+     b) Telling GitHub Copilot to iterate several times on the answer before returning it to you  
+     c) Telling GitHub Copilot about the mechanism you want it to use and how to incorporate that into the response  
+     d) Giving GitHub Copilot examples of the problem you want to solve  
+     **Answer: d**
+122. **What type of information can you retrieve through GitHub Copilot Business Subscriptions via REST API? (Each correct answer presents part of the solution. Choose two.)**  
+     a) View code suggestions for a specific user  
+     b) List all GitHub Copilot seat assignments for an organization  
+     c) Get a summary of GitHub Copilot usage for organization members  
+     d) List of all unsubscribed GitHub Copilot members within an organization  
+     **Answer: b, c**
+
+     Domain 1: Responsible AI (7%)
+What is the primary goal of Responsible AI?
+A) To maximize profits from AI systems
+B) To develop AI systems as quickly as possible
+C) To ensure AI systems are safe, trustworthy, and ethical
+D) To replace human decision-making with AI
+Answer: C
+Explanation: Responsible AI focuses on ethical, safe, and trustworthy AI development.
+
+Which principle is NOT one of Microsoft's six Responsible AI principles?
+A) Fairness
+B) Innovation
+C) Inclusiveness
+D) Accountability
+Answer: B
+Explanation: The six principles are Fairness, Reliability, Privacy, Inclusiveness, Transparency, Accountability (FAIRTP).
+
+What does the principle of Fairness emphasize?
+A) Maximizing AI performance
+B) Ensuring AI performs equally well across demographic groups
+C) Prioritizing profitability
+D) Creating understandable AI systems
+Answer: B
+Explanation: Fairness ensures unbiased AI outcomes for all groups.
+
+How does Microsoft address biases in AI systems?
+A) Ignoring the issue
+B) Providing more data
+C) Reviewing training data and using adversarial debiasing
+D) Allowing users to modify outputs
+Answer: C
+Explanation: Microsoft uses data reviews and debiasing techniques to mitigate bias.
+
+What is the role of transparency in Responsible AI?
+A) Keeping AI operations secret
+B) Making AI decisions understandable and clear
+C) Hiding system limitations
+D) Prioritizing efficiency
+Answer: B
+Explanation: Transparency ensures users understand how AI makes decisions.
+
+Why must developers scrutinize AI-generated code?
+A) To reduce development time
+B) To ensure alignment with project requirements
+C) To enhance creativity
+D) To improve system performance
+Answer: B
+Explanation: AI suggestions may not match project-specific conventions or security needs.
+
+Domain 2: GitHub Copilot Plans and Features (31%)
+What functionality isn’t supported in GitHub Copilot Pro?
+A) VPN Proxy support via self-signed certificates
+B) Multi-line function suggestions
+C) Editor integration
+D) Blocks suggestions matching public code
+Answer: A
+Explanation: VPN Proxy support requires enterprise-level features.
+
+What percentage of developers said GitHub Copilot helps them code faster?
+A) 70%
+B) 83%
+C) 65%
+D) 90%
+Answer: D
+Explanation: 90% reported increased coding speed.
+
+After enforcing a Copilot Business policy, where do you enable it for users?
+A) Policies
+B) Your organizations in your profile dropdown menu
+C) Settings in your profile dropdown menu
+D) Selected teams/users
+Answer: B
+Explanation: Access via profile dropdown → Your organizations.
+
+Which feature isn’t available in Copilot Enterprise but was in Copilot Business?
+A) Copilot Chat Customized to your Codebase
+B) Copilot Pull Request Summaries
+C) Copilot Documentation Search
+D) None of the above
+Answer: D
+Explanation: Enterprise includes all Business features.
+
+How does Copilot use an organization’s codebase?
+A) Uses open-source libraries only
+B) Tailors assistance to organizational standards
+C) Suggests code without project context
+D) Randomly generates snippets
+Answer: B
+Explanation: Copilot aligns suggestions with organizational best practices.
+
+Describe the purpose of Copilot’s pull request summaries in Enterprise.
+A) Provides detailed change history
+B) Automatically generates concise overviews to accelerate reviews
+C) Tracks developer activity
+D) None of the above
+Answer: B
+Explanation: Summaries enhance understanding and speed up reviews.
+
+True/False: Copilot Free includes access to premium models like Claude 3.5 Sonnet.
+Answer: True
+*Explanation: Free plan includes limited access to premium models (2,000 completions/month).*
+
+What is the monthly cost of Copilot Pro?
+A) $0
+B) $10
+C) $19
+D) $39
+Answer: B
+*Explanation: Priced at $10/month or $100/year.*
+
+Which plan is best for a student needing basic suggestions in VS Code?
+A) Copilot Free
+B) Copilot Pro
+C) Copilot Business
+D) Copilot Enterprise
+Answer: A
+*Explanation: Free plan offers 2,000 completions/month for basic use.*
+
+The Copilot Business plan costs ____ per user/month.
+Answer: $19
+*Explanation: Business plan is $19/user/month.*
+
+Which plan customizes suggestions for proprietary codebases?
+A) Copilot Free
+B) Copilot Pro
+C) Copilot Business
+D) Copilot Enterprise
+Answer: D
+*Explanation: Enterprise ($39/user/month) tailors suggestions to organizational codebases.*
+
+True/False: Copilot Pro includes CLI integration.
+Answer: True
+Explanation: Pro provides command-line suggestions.
+
+How many completions/month does Copilot Free allow?
+A) 500
+B) 1,000
+C) 2,000
+D) Unlimited
+Answer: C
+*Explanation: Free plan allows 2,000 completions/month.*
+
+Which feature is exclusive to Copilot Enterprise?
+A) Real-time suggestions
+B) Copilot Workspace for natural language development
+C) Access to premium models
+D) CLI integration
+Answer: B
+Explanation: Workspace enables natural language-driven development.
+
+Copilot Free allows up to ____ chat messages/month.
+Answer: 50
+*Explanation: Free plan limits chat to 50 messages/month.*
+
+Which plan offers unlimited completions and premium models for individuals?
+A) Copilot Free
+B) Copilot Pro
+C) Copilot Business
+D) Copilot Enterprise
+Answer: B
+*Explanation: Pro ($10/month) offers unlimited completions for individuals.*
+
+True/False: Copilot Business includes pull request reviewer suggestions.
+Answer: True
+Explanation: Business includes team features like PR reviewer suggestions.
+
+Which plan is best for a large company needing advanced privacy controls?
+A) Copilot Pro
+B) Copilot Business
+C) Copilot Enterprise
+D) Copilot Free
+Answer: C
+Explanation: Enterprise offers advanced privacy and codebase customization.
+
+What is the cost of Copilot Enterprise?
+A) $10
+B) $19
+C) $39
+D) Free
+Answer: C
+*Explanation: Enterprise is $39/user/month.*
+
+True/False: Copilot Pro+ includes all features of Copilot Business.
+Answer: False
+Explanation: Pro+ is for individuals and lacks team-oriented features.
+
+Which IDEs support Copilot across all plans?
+A) Visual Studio only
+B) Visual Studio and VS Code only
+C) Visual Studio, VS Code, and other IDEs
+D) Command-line only
+Answer: C
+Explanation: Supported in VS Code, Visual Studio, JetBrains, Neovim, etc.
+
+Copilot Pro offers a ____-day free trial.
+Answer: 30
+*Explanation: Pro includes a 30-day trial.*
+
+Domain 3: How GitHub Copilot Works (15%)
+What data does Copilot collect for suggestions?
+A) Only public code
+B) Code snippets, comments, and user interactions
+C) User’s browsing history
+D) System hardware details
+Answer: B
+Explanation: Collects code snippets, comments, and interactions for context.
+
+Where is Copilot’s primary data processing performed?
+A) User’s local machine
+B) GitHub’s Azure servers
+C) Third-party servers
+D) OpenAI’s servers
+Answer: B
+Explanation: Most processing occurs on GitHub’s Azure servers.
+
+How does Copilot ensure data security during transmission?
+A) Plaintext transfer
+B) Encrypted HTTPS
+C) Local storage only
+D) Email-based transfer
+Answer: B
+Explanation: Data is encrypted via HTTPS.
+
+What happens to user data after a session?
+A) Stored indefinitely
+B) Shared with third parties
+C) Discarded unless retention is enabled
+D) Used for training
+Answer: C
+Explanation: Data is discarded unless configured for retention.
+
+What tool detects sensitive information?
+A) Syntax highlighter
+B) Code scanning tools
+C) IDE debugger
+D) Version control
+Answer: B
+Explanation: Scanning tools detect API keys/passwords.
+
+True/False: Private code is used to train Copilot’s model.
+Answer: False
+Explanation: Only public code is used for training.
+
+True/False: Copilot shares user code with third parties by default.
+Answer: False
+Explanation: Private code isn’t shared unless part of a public repo.
+
+Domain 4: Prompt Crafting (15%)
+What is a key principle of prompt crafting?
+A) Using ambiguous language
+B) Providing clear/specific instructions
+C) Including sensitive data
+D) Limiting prompts to one word
+Answer: B
+Explanation: Clarity ensures accurate responses.
+
+How does Copilot determine context for a prompt?
+A) Analyzing public repositories
+B) Using open files and project structure
+C) Disabling IDE integrations
+D) Deleting chat history
+Answer: B
+Explanation: Uses open files and project context.
+
+Which languages are supported for prompts?
+A) Only Python
+B) Only English
+C) Multiple programming/natural languages
+D) Only Markdown
+Answer: C
+*Explanation: Supports 20+ programming and natural languages.*
+
+What file provides custom instructions for Copilot?
+A) .gitignore
+B) .github/copilot-instructions.md
+C) README.md
+D) .gitconfig
+Answer: B
+Explanation: This file sets project-specific guidelines.
+
+True/False: Prompts in Copilot are never stored.
+Answer: False
+*Explanation: Business/Enterprise plans store prompts for 28 days unless disabled.*
+
+Domain 5: Developer Use Cases (15%)
+How does Copilot help learn new programming languages?
+A) Rewriting entire codebases
+B) Providing real-time syntax suggestions
+C) Disabling other IDE features
+D) Creating new repositories
+Answer: B
+Explanation: Suggests syntax/patterns during coding.
+
+What role does Copilot play in writing documentation?
+A) Generating UML diagrams
+B) Creating contextually relevant comments
+C) Translating documentation
+D) Creating project reports
+Answer: B
+Explanation: Generates boilerplate comments/docs.
+
+True/False: Copilot can translate code between languages.
+Answer: True
+Explanation: Translates code (e.g., JavaScript to Python).
+
+Domain 6: Testing (9%)
+When testing a date-parsing function, which test indicates a boundary condition?
+A) Using the current date
+B) Using 'YYYY-MM-DD' format
+C) Testing February 29 on a non-leap year
+D) Testing random strings
+Answer: C
+Explanation: Tests edge cases for invalid dates.
+
+What is a limitation of using Copilot for test cases?
+A) Only supports JavaScript
+B) May not cover all scenarios
+C) Can’t integrate with VS Code
+D) Requires manual execution
+Answer: B
+Explanation: Generated tests may miss edge cases.
+
+Domain 7: Privacy (15%)
+Which SKU allows organization-wide content exclusion?
+A) Copilot Free
+B) Copilot Pro
+C) Copilot Business
+D) Copilot Enterprise
+Answer: D
+Explanation: Enterprise enables org-wide exclusions.
+
+How long are prompts retained for Business users?
+A) Indefinitely
+B) 28 days
+C) 90 days
+D) Never stored
+Answer: B
+Explanation: Business retains prompts for 28 days by default.
+
+True/False: Users own outputs generated by Copilot.
+Answer: True
+Explanation: Users own generated code subject to licensing.
+
+Additional Questions from File Sections
+GitHub Copilot Test (True/False)
+Copilot uses encryption for data transmission.
+Answer: True
+Explanation: Data transmitted via encrypted HTTPS.
+
+Copilot’s training data includes outdated code patterns.
+Answer: True
+Explanation: Training data spans old/recent public code.
+
+Copilot can perform runtime calculations.
+Answer: False
+Explanation: Suggests code but doesn’t execute it.
+
+GitHub Copilot Test (Multiple Choice)
+What is the first step in Copilot’s code completion flow?
+A) Filtering suggestions
+B) Capturing IDE context
+C) Sending to third parties
+D) Generating documentation
+Answer: B
+Explanation: Starts with collecting file content/cursor position.
+
+What filter prevents reproducing public code?
+A) Syntax filter
+B) Duplication detection
+C) Color filter
+D) Font filter
+Answer: B
+Explanation: Blocks near-identical public code matches.
