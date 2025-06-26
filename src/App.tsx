@@ -47,16 +47,29 @@ function App() {
   const handleAnswerSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = Number(event.target.value);
     const correctAnswer = state.questions[state.currentQuestionIndex].correctAnswer;
+    let newSelectedAnswers: number[];
+
     if (Array.isArray(correctAnswer) && correctAnswer.length > 1) {
       // Handle checkbox selection for multiple answers
       if (event.target.checked) {
-        setSelectedAnswers(prev => [...prev, value]);
+        newSelectedAnswers = [...selectedAnswers, value];
       } else {
-        setSelectedAnswers(prev => prev.filter(answer => answer !== value));
+        newSelectedAnswers = selectedAnswers.filter(answer => answer !== value);
       }
     } else {
       // Handle radio button selection for single answer
-      setSelectedAnswers([value]);
+      newSelectedAnswers = [value];
+    }
+    
+    setSelectedAnswers(newSelectedAnswers);
+    
+    // Enable next button if we have the required number of answers
+    if (Array.isArray(correctAnswer) && correctAnswer.length > 1) {
+      // For multiple choice, enable when number of selections matches number of correct answers
+      setShowQuestionResult(newSelectedAnswers.length === correctAnswer.length);
+    } else {
+      // For single choice, enable as soon as an answer is selected
+      setShowQuestionResult(true);
     }
   };
 
@@ -244,10 +257,7 @@ function App() {
                 disabled={selectedAnswers.length === 0}
                 color="primary"
                 sx={{
-                  bgcolor: '#1976d2',
-                  '&:hover': {
-                    bgcolor: '#1565c0'
-                  }
+                  display: 'none' // Hide the Check Answer button
                 }}
               >
                 Check Answer
