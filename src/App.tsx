@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { loadQuestionsFromFiles } from './services/questionService';
-import { Box, Container, Typography, Button, Radio, RadioGroup, FormControlLabel, Paper, LinearProgress } from '@mui/material';
+import { Box, Container, Typography, Button, Radio, RadioGroup, FormControlLabel, Paper, LinearProgress, Checkbox, FormGroup } from '@mui/material';
 import type { Question, AssessmentState } from './types/types';
 import './App.css';
 
@@ -15,7 +15,7 @@ function App() {
     questions: initialQuestions,
   });
 
-  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+  const [selectedAnswers, setSelectedAnswers] = useState<number[]>([]);
   const [showResult, setShowResult] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -44,19 +44,31 @@ function App() {
   }, []);
 
   const handleAnswerSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedAnswer(Number(event.target.value));
+    const value = Number(event.target.value);
+    if (Array.isArray(state.questions[state.currentQuestionIndex].correctAnswer)) {
+      // Handle checkbox selection for multiple answers
+      if (event.target.checked) {
+        setSelectedAnswers(prev => [...prev, value]);
+      } else {
+        setSelectedAnswers(prev => prev.filter(answer => answer !== value));
+      }
+    } else {
+      // Handle radio button selection for single answer
+      setSelectedAnswers([value]);
+    }
   };
 
   const handleNextQuestion = () => {
-    if (selectedAnswer === null) return;
+    if (selectedAnswers.length === 0) return;
 
     const newAnswers = [...state.answers];
-    newAnswers[state.currentQuestionIndex] = selectedAnswer;
+    newAnswers[state.currentQuestionIndex] = selectedAnswers[0]; // Store first answer for backward compatibility
 
     const correctAnswer = state.questions[state.currentQuestionIndex].correctAnswer;
     const isCorrect = Array.isArray(correctAnswer)
-      ? correctAnswer.includes(selectedAnswer)
-      : selectedAnswer === correctAnswer;
+      ? correctAnswer.every(answer => selectedAnswers.includes(answer)) && 
+        selectedAnswers.every(answer => correctAnswer.includes(answer))
+      : selectedAnswers[0] === correctAnswer;
     const newScore = isCorrect ? state.score + 1 : state.score;
 
     if (state.currentQuestionIndex === state.totalQuestions - 1) {
@@ -73,7 +85,7 @@ function App() {
         score: newScore,
         answers: newAnswers,
       });
-      setSelectedAnswer(null);
+      setSelectedAnswers([]);
     }
   };
 
@@ -87,16 +99,17 @@ function App() {
       answers: [],
       questions: shuffledQuestions,
     });
-    setSelectedAnswer(null);
+    setSelectedAnswers([]);
     setShowResult(false);
   };
 
   const currentQuestion = state.questions[state.currentQuestionIndex];
   const progress = ((state.currentQuestionIndex + 1) / state.totalQuestions) * 100;
-  const isAnswerCorrect = selectedAnswer !== null && currentQuestion && (
+  const isAnswerCorrect = selectedAnswers.length > 0 && currentQuestion && (
     Array.isArray(currentQuestion.correctAnswer)
-      ? currentQuestion.correctAnswer.includes(selectedAnswer)
-      : selectedAnswer === currentQuestion.correctAnswer
+      ? currentQuestion.correctAnswer.every(answer => selectedAnswers.includes(answer)) && 
+        selectedAnswers.every(answer => currentQuestion.correctAnswer.includes(answer))
+      : selectedAnswers[0] === currentQuestion.correctAnswer
   );
 
   if (isLoading) {
@@ -172,29 +185,67 @@ function App() {
             <Typography variant="h6" gutterBottom>
               {currentQuestion.text}
             </Typography>
-            <RadioGroup value={selectedAnswer} onChange={handleAnswerSelect}>
-              {currentQuestion.options.map((option, index) => (
-                <FormControlLabel
-                  key={index}
-                  value={index}
-                  control={<Radio />}
-                  label={option}
-                  sx={{
-                    color: selectedAnswer !== null ? (
-                      index === currentQuestion.correctAnswer ? 'green' :
-                      index === selectedAnswer ? 'red' : 'inherit'
-                    ) : 'inherit'
-                  }}
-                />
-              ))}
-            </RadioGroup>
-            {selectedAnswer !== null && (
+            {Array.isArray(currentQuestion.correctAnswer) ? (
+              <FormGroup>
+                {currentQuestion.options.map((option, index) => (
+                  <FormControlLabel
+                    key={index}
+                    value={index}
+                    control={
+                      <Checkbox 
+                        checked={selectedAnswers.includes(index)}
+                        onChange={handleAnswerSelect}
+                      />
+                    }
+                    label={option}
+                    sx={{
+                      backgroundColor: showResult
+                        ? (Array.isArray(currentQuestion.correctAnswer) && currentQuestion.correctAnswer.includes(index))
+                          ? 'green'
+                          : selectedAnswers.includes(index)
+                            ? 'red'
+                            : 'inherit'
+                        : 'transparent',
+                      borderRadius: 1,
+                      '&:hover': {
+                        backgroundColor: showResult ? undefined : '#f5f5f5',
+                      },
+                    }}
+                  />
+                ))}
+              </FormGroup>
+            ) : (
+              <RadioGroup value={selectedAnswers[0]} onChange={handleAnswerSelect}>
+                {currentQuestion.options.map((option, index) => (
+                  <FormControlLabel
+                    key={index}
+                    value={index}
+                    control={<Radio />}
+                    label={option}
+                    sx={{
+                      backgroundColor: showResult
+                        ? index === currentQuestion.correctAnswer
+                          ? 'green'
+                          : selectedAnswers[0] === index
+                            ? 'red'
+                            : 'inherit'
+                        : 'transparent',
+                      borderRadius: 1,
+                      '&:hover': {
+                        backgroundColor: showResult ? undefined : '#f5f5f5',
+                      },
+                    }}
+                  />
+                ))}
+              </RadioGroup>
+            )}
+            {selectedAnswers.length > 0 && (
               <Box sx={{ mt: 2, mb: 2, p: 2, bgcolor: isAnswerCorrect ? '#e8f5e9' : '#ffebee', borderRadius: 1 }}>
                 <Typography variant="body1" color={isAnswerCorrect ? 'success.main' : 'error.main'}>
                   {isAnswerCorrect ? '✓ Correct!' : '✗ Incorrect!'}
                 </Typography>
                 <Typography variant="body2" sx={{ mt: 1 }}>
-                  The correct answer is: {currentQuestion.options[currentQuestion.correctAnswer]}
+                  The correct answer is: {Array.isArray(currentQuestion.correctAnswer) ? currentQuestion.correctAnswer.map(answer => currentQuestion.options[answer]).join(', ') : currentQuestion.options[currentQuestion.correctAnswer]}
                 </Typography>
               </Box>
             )}
