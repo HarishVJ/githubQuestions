@@ -116,8 +116,8 @@ function App() {
     return (
       <Container maxWidth="sm">
         <Box sx={{ mt: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-          <Typography variant="h5" gutterBottom>
-            Loading Questions...
+          <Typography variant="h6" gutterBottom>
+            Loading questions...
           </Typography>
           <LinearProgress sx={{ width: '100%', mt: 2 }} />
         </Box>
@@ -128,16 +128,11 @@ function App() {
   if (error) {
     return (
       <Container maxWidth="sm">
-        <Box sx={{ mt: 4, p: 3 }} component={Paper}>
-          <Typography variant="h5" color="error" gutterBottom>
+        <Box sx={{ mt: 4 }}>
+          <Typography variant="h6" color="error" gutterBottom>
             Error: {error}
           </Typography>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={() => window.location.reload()}
-            sx={{ mt: 2 }}
-          >
+          <Button variant="contained" onClick={() => window.location.reload()}>
             Retry
           </Button>
         </Box>
@@ -148,22 +143,17 @@ function App() {
   if (showResult) {
     return (
       <Container maxWidth="sm">
-        <Box sx={{ mt: 4, p: 3 }} component={Paper}>
+        <Box sx={{ mt: 4 }}>
           <Typography variant="h4" gutterBottom>
             Assessment Complete!
           </Typography>
           <Typography variant="h5" gutterBottom>
-            Your Score: {state.score} / {state.totalQuestions}
+            Your Score: {state.score} out of {state.totalQuestions}
           </Typography>
           <Typography variant="h6" gutterBottom>
-            Percentage: {((state.score / state.totalQuestions) * 100).toFixed(1)}%
+            Percentage: {((state.score / state.totalQuestions) * 100).toFixed(2)}%
           </Typography>
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={restartAssessment}
-            sx={{ mt: 2 }}
-          >
+          <Button variant="contained" onClick={restartAssessment} sx={{ mt: 2 }}>
             Restart Assessment
           </Button>
         </Box>
@@ -173,15 +163,13 @@ function App() {
 
   return (
     <Container maxWidth="sm">
-      <Box sx={{ width: '100%', mb: 2 }}>
-        <LinearProgress variant="determinate" value={progress} />
-      </Box>
-      <Box sx={{ p: 3 }} component={Paper}>
-        <Typography variant="subtitle1" gutterBottom>
-          Question {state.currentQuestionIndex + 1} of {state.totalQuestions}
-        </Typography>
+      <Box sx={{ mt: 4 }}>
         {currentQuestion && (
           <>
+            <LinearProgress variant="determinate" value={progress} sx={{ mb: 4 }} />
+            <Typography variant="subtitle2" gutterBottom>
+              Question {state.currentQuestionIndex + 1} of {state.totalQuestions}
+            </Typography>
             <Typography variant="h6" gutterBottom>
               {currentQuestion.text}
             </Typography>
@@ -195,21 +183,24 @@ function App() {
                       <Checkbox 
                         checked={selectedAnswers.includes(index)}
                         onChange={handleAnswerSelect}
+                        value={index}
                       />
                     }
                     label={option}
                     sx={{
                       backgroundColor: showResult
                         ? (Array.isArray(currentQuestion.correctAnswer) && currentQuestion.correctAnswer.includes(index))
-                          ? 'green'
+                          ? '#4caf50'
                           : selectedAnswers.includes(index)
-                            ? 'red'
-                            : 'inherit'
+                            ? '#f44336'
+                            : 'transparent'
                         : 'transparent',
                       borderRadius: 1,
                       '&:hover': {
                         backgroundColor: showResult ? undefined : '#f5f5f5',
                       },
+                      p: 1,
+                      my: 0.5
                     }}
                   />
                 ))}
@@ -225,35 +216,38 @@ function App() {
                     sx={{
                       backgroundColor: showResult
                         ? index === currentQuestion.correctAnswer
-                          ? 'green'
+                          ? '#4caf50'
                           : selectedAnswers[0] === index
-                            ? 'red'
-                            : 'inherit'
+                            ? '#f44336'
+                            : 'transparent'
                         : 'transparent',
                       borderRadius: 1,
                       '&:hover': {
                         backgroundColor: showResult ? undefined : '#f5f5f5',
                       },
+                      p: 1,
+                      my: 0.5
                     }}
                   />
                 ))}
               </RadioGroup>
             )}
-            {selectedAnswers.length > 0 && (
+            {selectedAnswers.length > 0 && showResult && (
               <Box sx={{ mt: 2, mb: 2, p: 2, bgcolor: isAnswerCorrect ? '#e8f5e9' : '#ffebee', borderRadius: 1 }}>
                 <Typography variant="body1" color={isAnswerCorrect ? 'success.main' : 'error.main'}>
                   {isAnswerCorrect ? '✓ Correct!' : '✗ Incorrect!'}
                 </Typography>
                 <Typography variant="body2" sx={{ mt: 1 }}>
-                  The correct answer is: {Array.isArray(currentQuestion.correctAnswer) ? currentQuestion.correctAnswer.map(answer => currentQuestion.options[answer]).join(', ') : currentQuestion.options[currentQuestion.correctAnswer]}
+                  The correct answer{Array.isArray(currentQuestion.correctAnswer) && currentQuestion.correctAnswer.length > 1 ? 's are' : ' is'}: {Array.isArray(currentQuestion.correctAnswer) 
+                    ? currentQuestion.correctAnswer.map(answer => currentQuestion.options[answer]).join(', ') 
+                    : currentQuestion.options[currentQuestion.correctAnswer]}
                 </Typography>
               </Box>
             )}
             <Button
               variant="contained"
-              color="primary"
               onClick={handleNextQuestion}
-              disabled={selectedAnswer === null}
+              disabled={selectedAnswers.length === 0}
               sx={{ mt: 2 }}
             >
               {state.currentQuestionIndex === state.totalQuestions - 1 ? 'Finish' : 'Next'}
