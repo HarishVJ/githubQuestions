@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.MuiPaper-root {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 0.2s ease-in-out !important;
+}
+
+.MuiPaper-root:hover {
+  transform: translateY(-2px);
+}
+
+.MuiRadio-root {
+  color: #6366f1 !important;
+}
+
+.MuiRadio-root.Mui-checked {
+  color: #4f46e5 !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #4f46e5 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #4338ca !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3) !important;
+}
+
+.MuiLinearProgress-root {
+  height: 8px !important;
+  border-radius: 4px;
+  background-color: rgba(79, 70, 229, 0.1) !important;
+}
+
+.MuiLinearProgress-bar {
+  background-color: #4f46e5 !important;
+}
+
+.question-transition {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.question-transition.fade {
+  opacity: 0;
+}
