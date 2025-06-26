@@ -46,7 +46,8 @@ function App() {
 
   const handleAnswerSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = Number(event.target.value);
-    if (Array.isArray(state.questions[state.currentQuestionIndex].correctAnswer)) {
+    const correctAnswer = state.questions[state.currentQuestionIndex].correctAnswer;
+    if (Array.isArray(correctAnswer) && correctAnswer.length > 1) {
       // Handle checkbox selection for multiple answers
       if (event.target.checked) {
         setSelectedAnswers(prev => [...prev, value]);
@@ -175,7 +176,7 @@ function App() {
             <Typography variant="h6" gutterBottom>
               {currentQuestion.text}
             </Typography>
-            {Array.isArray(currentQuestion.correctAnswer) ? (
+            {Array.isArray(currentQuestion.correctAnswer) && currentQuestion.correctAnswer.length > 1 ? (
               <FormGroup>
                 {currentQuestion.options.map((option, index) => (
                   <FormControlLabel
