@@ -55,6 +55,16 @@ function App() {
     } else {
       // Handle radio button selection for single answer
       setSelectedAnswers([value]);
+      setShowResult(true); // Show result immediately for single-answer questions
+    }
+    // For multiple-answer questions, show result when all correct answers are selected
+    if (Array.isArray(state.questions[state.currentQuestionIndex].correctAnswer)) {
+      const correctAnswers = state.questions[state.currentQuestionIndex].correctAnswer as number[];
+      if (event.target.checked && selectedAnswers.length + 1 >= correctAnswers.length) {
+        setShowResult(true);
+      } else {
+        setShowResult(false);
+      }
     }
   };
 
@@ -232,7 +242,7 @@ function App() {
                 ))}
               </RadioGroup>
             )}
-            {selectedAnswers.length > 0 && showResult && (
+            {showResult && (
               <Box sx={{ mt: 2, mb: 2, p: 2, bgcolor: isAnswerCorrect ? '#e8f5e9' : '#ffebee', borderRadius: 1 }}>
                 <Typography variant="body1" color={isAnswerCorrect ? 'success.main' : 'error.main'}>
                   {isAnswerCorrect ? '✓ Correct!' : '✗ Incorrect!'}
@@ -247,7 +257,7 @@ function App() {
             <Button
               variant="contained"
               onClick={handleNextQuestion}
-              disabled={selectedAnswers.length === 0}
+              disabled={!isAnswerCorrect}
               sx={{ mt: 2 }}
             >
               {state.currentQuestionIndex === state.totalQuestions - 1 ? 'Finish' : 'Next'}
