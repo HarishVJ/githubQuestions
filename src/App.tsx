@@ -53,9 +53,11 @@ function App() {
     const newAnswers = [...state.answers];
     newAnswers[state.currentQuestionIndex] = selectedAnswer;
 
-    const newScore = selectedAnswer === state.questions[state.currentQuestionIndex].correctAnswer 
-      ? state.score + 1 
-      : state.score;
+    const correctAnswer = state.questions[state.currentQuestionIndex].correctAnswer;
+    const isCorrect = Array.isArray(correctAnswer)
+      ? correctAnswer.includes(selectedAnswer)
+      : selectedAnswer === correctAnswer;
+    const newScore = isCorrect ? state.score + 1 : state.score;
 
     if (state.currentQuestionIndex === state.totalQuestions - 1) {
       setState({
@@ -91,8 +93,11 @@ function App() {
 
   const currentQuestion = state.questions[state.currentQuestionIndex];
   const progress = ((state.currentQuestionIndex + 1) / state.totalQuestions) * 100;
-  const isAnswerCorrect = selectedAnswer !== null && currentQuestion && 
-    selectedAnswer === currentQuestion.correctAnswer;
+  const isAnswerCorrect = selectedAnswer !== null && currentQuestion && (
+    Array.isArray(currentQuestion.correctAnswer)
+      ? currentQuestion.correctAnswer.includes(selectedAnswer)
+      : selectedAnswer === currentQuestion.correctAnswer
+  );
 
   if (isLoading) {
     return (
