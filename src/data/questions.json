@@ -7,7 +7,9 @@
       "AI that is developed by large companies",
       "AI that is open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -18,7 +20,9 @@
       "Speed of development",
       "Proprietary algorithms"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -29,7 +33,9 @@
       "To increase the speed of AI development",
       "To reduce the cost of AI systems"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -40,7 +46,9 @@
       "Ensuring AI systems are fast",
       "Keeping AI algorithms secret"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -51,7 +59,9 @@
       "IEEE",
       "NASA"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -62,7 +72,9 @@
       "To reduce the cost of AI systems",
       "To make AI systems open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -73,7 +85,9 @@
       "Faster development",
       "Proprietary algorithms"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -84,7 +98,9 @@
       "The profitability of AI systems",
       "The proprietary nature of AI algorithms"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -95,7 +111,9 @@
       "To increase the speed of AI development",
       "To keep AI algorithms secret"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -106,7 +124,9 @@
       "To reduce the cost of AI systems",
       "To make AI systems open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Plans and Features"
   },
   {
@@ -117,7 +137,9 @@
       "A version control system",
       "A bug tracking system"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -128,7 +150,9 @@
       "Multiple programming languages",
       "Only Java"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -139,7 +163,9 @@
       "By using a fixed set of code snippets",
       "By using a rule-based system"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -150,7 +176,9 @@
       "Only for Python documentation",
       "Only for JavaScript documentation"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -161,7 +189,9 @@
       "It replaces the need for human developers",
       "It makes projects open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -172,7 +202,9 @@
       "It only uses the context of the current line",
       "It uses the context of the entire project"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -183,7 +215,9 @@
       "A feature for testing code",
       "A feature for managing issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -194,7 +228,9 @@
       "Only in the web version of Visual Studio Code",
       "Only in the desktop version of Visual Studio Code"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -205,7 +241,9 @@
       "A plan for open-source projects",
       "A plan for educational institutions"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "How GitHub Copilot Works and Handles Data"
   },
   {
@@ -216,7 +254,9 @@
       "By analyzing the entire internet",
       "By using a fixed set of code snippets"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -227,7 +267,9 @@
       "Only Python code",
       "Only JavaScript code"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -238,7 +280,9 @@
       "By anonymizing and aggregating data",
       "By using encryption"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -249,7 +293,9 @@
       "It tracks issues",
       "It handles pull requests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -260,7 +306,9 @@
       "Only for open-source projects",
       "Only for educational institutions"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -271,7 +319,9 @@
       "It stores feedback securely",
       "It shares feedback with other users"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -282,7 +332,9 @@
       "Only Python code",
       "Only JavaScript code"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -293,7 +345,9 @@
       "By analyzing the entire internet",
       "By using a fixed set of code snippets"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "Prompt Crafting and Prompt Engineering"
   },
   {
@@ -304,7 +358,9 @@
       "The process of managing repositories",
       "The process of testing code"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -315,7 +371,9 @@
       "To reduce the cost of AI systems",
       "To make projects open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -326,7 +384,9 @@
       "Using long and complex prompts",
       "Using short and ambiguous prompts"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -337,7 +397,9 @@
       "By making the prompt longer",
       "By making the prompt shorter"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -348,7 +410,9 @@
       "To store the context securely",
       "To share the context with other users"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -359,7 +423,9 @@
       "Using short and ambiguous prompts",
       "Using long and complex prompts"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -370,7 +436,9 @@
       "To make the prompt longer",
       "To make the prompt shorter"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -381,7 +449,9 @@
       "By making the prompt longer",
       "By making the prompt shorter"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "Developer Use Cases for AI"
   },
   {
@@ -392,7 +462,9 @@
       "Tracking issues",
       "Handling pull requests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -403,7 +475,9 @@
       "By managing repositories",
       "By tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -414,7 +488,9 @@
       "To make projects open-source",
       "To manage repositories"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -425,7 +501,9 @@
       "By managing repositories",
       "By tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -436,7 +514,9 @@
       "Handling pull requests",
       "Writing code"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -447,7 +527,9 @@
       "By managing repositories",
       "By tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -458,7 +540,9 @@
       "Managing repositories",
       "Tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -469,7 +553,9 @@
       "By managing repositories",
       "By tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -480,7 +566,9 @@
       "Managing repositories",
       "Tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -491,7 +579,9 @@
       "By managing repositories",
       "By tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "Testing with GitHub Copilot"
   },
   {
@@ -502,7 +592,9 @@
       "By tracking issues",
       "By handling pull requests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -513,7 +605,9 @@
       "To make projects open-source",
       "To manage repositories"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -524,7 +618,9 @@
       "It stores test data securely",
       "It shares test data with other users"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -535,7 +631,9 @@
       "Only for Python unit tests",
       "Only for JavaScript unit tests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -546,7 +644,9 @@
       "It tracks issues",
       "It handles pull requests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -557,7 +657,9 @@
       "By managing repositories",
       "By tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -568,7 +670,9 @@
       "Managing repositories",
       "Tracking issues"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -579,7 +683,9 @@
       "By analyzing the entire internet",
       "By using a fixed set of code snippets"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -590,7 +696,9 @@
       "Only for Python end-to-end tests",
       "Only for JavaScript end-to-end tests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -601,7 +709,9 @@
       "To make projects open-source",
       "To manage repositories"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "Privacy Fundamentals and Context Exclusions"
   },
   {
@@ -612,7 +722,9 @@
       "To reduce the cost of AI systems",
       "To make AI systems open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -623,7 +735,9 @@
       "By not storing any user data",
       "By using encryption"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -634,7 +748,9 @@
       "Storing the context securely",
       "Sharing the context with other users"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -645,7 +761,9 @@
       "To reduce the cost of AI systems",
       "To make AI systems open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -656,7 +774,9 @@
       "By making their code open-source",
       "By using long and complex prompts"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -667,7 +787,9 @@
       "To reduce the cost of AI systems",
       "To make AI systems open-source"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -678,7 +800,9 @@
       "By not storing any suggestions",
       "By using encryption"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -687,9 +811,12 @@
     "options": [
       "Limit the number of concurrent users accessing GitHub Copilot Chat",
       "Apply prompt engineering techniques to be more specific",
-      "Optimize the usage of memory-intensive operations within generated"
+      "Optimize the usage of memory-intensive operations within generated",
+      "Use a single GitHub Copilot Chat query to find resolutions for the collection of technical requirements"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -700,7 +827,9 @@
       "GitHub Copilot's automatic update of outdated mathematical formulas to modern standards.",
       "GitHub Copilot's capability to optimize complex mathematical algorithms beyond manual coding"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -711,7 +840,9 @@
       "GitHub Copilot automatically updates deprecated features in its suggestions to the latest version.",
       "GitHub Copilot rejects all prompts involving deprecated features to avoid compilation errors"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -722,7 +853,9 @@
       "The open tabs in the IDE and the current folder of the terminal.",
       "Information from the IDE like open tabs, cursor location, selected code."
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      2
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -733,7 +866,9 @@
       "Allowing license check configuration",
       "Blocking license check configuration"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -744,7 +879,9 @@
       "Suggest code snippets that reflect the most common practices in the training data.",
       "Suggest completely novel projects, while reducing time on a project."
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -755,7 +892,9 @@
       "Through an Azure Subscription",
       "N/A - Copilot Individual is a free service for all open-source projects"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      2
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -766,7 +905,9 @@
       "Suggestions matching public code (optional based on settings)",
       "Compatibility with user-specific settings"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -777,7 +918,9 @@
       "Keep the prompt as short as possible, using single words or brief phrases.",
       "Avoid mentioning the programming language to allow for more flexible suggestions."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -789,7 +932,9 @@
       "The API can provide feedback on coding style and standards compliance.",
       "The API can provide Copilot Chat specific suggestions acceptance metrics."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -800,7 +945,9 @@
       "Type out the code snippet → Use the copilot refine command to enhance it → Review the suggested command.",
       "Describe the project’s architecture → Use the copilot generate command → Accept the generated suggestion."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -811,7 +958,9 @@
       "Ensuring code security supports the development of more advanced AI features.",
       "Ensuring code security enables the AI system to handle larger datasets effectively."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -822,7 +971,9 @@
       "GitHub Copilot Enterprise",
       "GitHub Copilot Codespace"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -833,7 +984,9 @@
       "By using a specific command in the terminal.",
       "By using a specific setting in GitHub Copilot’s configuration."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -844,7 +997,9 @@
       "Create a copilot.policy in the .github repository",
       "Apply policies through the GitHub Actions configuration"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -856,7 +1011,9 @@
       "Giving GitHub Copilot examples of the problem you want to solve",
       "Giving GitHub Copilot examples of the algorithm and outcome you want to use"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -867,7 +1024,9 @@
       "By suggesting code snippets that can be reused across different parts of the project.",
       "By engaging in real-time collaboration with multiple developers to write boilerplate code."
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -878,7 +1037,9 @@
       "To monitor code conflicts across repositories",
       "To assign software licenses within the organization"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -889,7 +1050,9 @@
       "By posting on the GitHub forums.",
       "By filling out a feedback form on the GitHub website."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -900,7 +1063,9 @@
       "GitHub Copilot for Azure DevOps",
       "Copilot Teams"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -911,7 +1076,9 @@
       "Responses use the organization's LLM engine",
       "Responses are guaranteed to be correct"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -922,7 +1089,9 @@
       "To allow administrators to control which suggestions are visible to developers based on custom criteria.",
       "To detect and block suggestions that match public code snippets on GitHub if they contain about 150 characters."
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      2
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -933,7 +1102,9 @@
       "Use diverse data, fairness metrics, and human oversight.",
       "Improve on the computational efficiency and speed."
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -944,7 +1115,9 @@
       "GitHub Copilot can independently manage and resolve all merge conflicts in version control.",
       "GitHub Copilot's suggestions are always aware of the entire codebase."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -955,7 +1128,9 @@
       "/create-tests",
       "/init-tests"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -967,7 +1142,9 @@
       "Repositories",
       "Gists"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -978,7 +1155,9 @@
       "The GitHub Copilot errors panel in your IDE",
       "The code suggestions window will display a warning message"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -989,7 +1168,9 @@
       "GitHub Copilot can only be used with a limited set of programming languages.",
       "GitHub Copilot may not always produce optimized or best-practice code for refactoring."
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      2
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1001,7 +1182,9 @@
       "Retraining the model",
       "Generate suggestions"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1012,7 +1195,9 @@
       "Improves suggestions by considering both the prefix and suffix of the code, filling in the middle part more accurately",
       "Restricts Copilot to use only external databases for generating code suggestions."
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1023,7 +1208,9 @@
       "GitHub Copilot can generate user interface (UI) prototypes without prompting.",
       "GitHub Copilot can manage design team collaboration and version control."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1034,7 +1221,9 @@
       "Reliability and Safety",
       "Inclusiveness"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1045,7 +1234,9 @@
       "GitHub Copilot can completely replace the need for human collaboration.",
       "GitHub Copilot can predict and prevent bugs before they occur."
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1056,7 +1247,9 @@
       "Telling GitHub Copilot about the mechanism you want it to use and how to incorporate that into the response",
       "Giving GitHub Copilot examples of the problem you want to solve"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      2
+    ],
     "domain": "GitHub Copilot Certification"
   },
   {
@@ -1219,7 +1412,9 @@
       "Color filter",
       "Font filter"
     ],
-    "correctAnswer": 152,
+    "correctAnswer": [
+      152
+    ],
     "domain": "Responsible AI"
   },
   {
